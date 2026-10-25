@@ -1,0 +1,12 @@
+user: Nathan
+pass: 2q@XD%VRpO*92aNQ)DOFz(34
+
+***ftp
+ftp.restaurant.pass-group.com.au
+46.4.117.157
+
+User: restaur6
+pass: pl59r4lQX0
+
+port: 21
+

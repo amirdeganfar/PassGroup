@@ -1,0 +1,7 @@
+When the user says "build android", run the following command:
+
+```
+eas build -p android --profile preview
+```
+
+This builds a standalone Android APK via EAS Build (cloud) using the "preview" profile defined in eas.json. The resulting APK runs independently on Android without a dev server.

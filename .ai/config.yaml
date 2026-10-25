@@ -1,0 +1,55 @@
+---
+# Generic AI Tool Configuration
+# Used by Claude Code, Cursor, and other AI assistants
+
+project: StepTo5K
+description: React Native fitness app with web platform
+
+# Tool-specific mappings
+tools:
+  claude-code:
+    skills_path: .ai/skills/
+    rules_path: .ai/rules/
+    invoke_method: Skill tool or memory reference
+
+  cursor:
+    rules_path: .cursor/rules/
+    rules_format: .mdc (auto-synced from .ai/rules/)
+    skills_path: .cursor/skills/
+    skills_format: SKILL.md (auto-synced from .ai/skills/)
+
+  generic:
+    read: All files in .ai/ with YAML frontmatter
+    filter_by: type (rule|skill) and trigger
+
+# Rules: applied by default in matching contexts
+rules:
+  - name: dependency-management
+    path: .ai/rules/dependency-management.md
+    trigger: Before adding dependencies or running projects
+    alwaysApply: false
+
+  - name: react-native
+    path: .ai/rules/react-native.md
+    trigger: Working on React Native code OR mobile development
+    alwaysApply: true
+
+  - name: uiux
+    path: .ai/rules/uiux.md
+    trigger: Working on UI/UX design OR user interface implementation
+    alwaysApply: true
+
+  - name: build-android
+    path: .ai/rules/build-android.md
+    trigger: User says "build android" OR working on Android release
+    alwaysApply: false
+
+# Skills: invoked explicitly when needed
+skills:
+  - name: seo-optimization
+    path: .ai/skills/seo-optimization.md
+    trigger: Website/ folder OR user mentions SEO
+
+  - name: web-design-best-practices
+    path: .ai/skills/web-design-best-practices.md
+    trigger: Website/ folder OR user mentions web design|HTML|CSS|accessibility|responsive layout

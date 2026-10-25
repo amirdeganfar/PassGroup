@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cluster Plan Viewer</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --txt:#e6e9ef; --dim:#9aa3b2; --teal:#17b3a3; --teal-dim:#0d6f66;
+    --art:#3b82f6; --qa:#a855f7; --pillar:#f59e0b;
+    --easy:#22c55e; --med:#eab308; --hard:#ef4444;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt)}
+  header{position:sticky;top:0;z-index:5;background:var(--panel);border-bottom:1px solid var(--line);padding:14px 20px}
+  h1{font-size:18px;margin:0 0 4px}
+  .sub{color:var(--dim);font-size:13px}
+  .bar{height:8px;border-radius:6px;background:var(--panel2);margin:10px 0 6px;overflow:hidden}
+  .bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--teal-dim),var(--teal));width:0;transition:width .3s}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;align-items:center}
+  input[type=search]{flex:1;min-width:200px;background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:9px 12px;border-radius:8px;font-size:14px}
+  select{background:var(--panel2);border:1px solid var(--line);color:var(--txt);padding:9px 10px;border-radius:8px;font-size:13px}
+  .count{color:var(--dim);font-size:13px;margin-left:auto}
+  main{padding:14px 20px 60px;max-width:1000px;margin:0 auto}
+  .cluster-h{margin:22px 0 6px;font-size:14px;font-weight:700;color:var(--txt);border-bottom:2px solid var(--teal-dim);padding-bottom:6px}
+  .cluster-h .sub{font-weight:400;margin-left:8px}
+  .facet{margin:18px 0 4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--dim);border-bottom:1px solid var(--line);padding-bottom:6px}
+  .facet b{color:var(--teal)}
+  .row{background:var(--panel);border:1px solid var(--line);border-radius:10px;margin:8px 0;overflow:hidden}
+  .head{display:flex;align-items:center;gap:10px;padding:11px 13px;cursor:pointer}
+  .head:hover{background:var(--panel2)}
+  .cb{width:18px;height:18px;flex:none;accent-color:var(--teal);cursor:pointer}
+  .title{font-weight:600}
+  .row.done .title{text-decoration:line-through;color:var(--dim)}
+  .badge{font-size:11px;padding:2px 7px;border-radius:20px;font-weight:600;flex:none}
+  .b-pillar{background:rgba(245,158,11,.15);color:var(--pillar)}
+  .b-article{background:rgba(59,130,246,.15);color:var(--art)}
+  .b-qa{background:rgba(168,85,247,.15);color:var(--qa)}
+  .slug{color:var(--dim);font-size:12px;font-family:ui-monospace,Menlo,Consolas,monospace}
+  .cdate{color:var(--dim);font-size:11px;font-family:ui-monospace,Menlo,Consolas,monospace;margin-right:8px}
+  a.slug.live{color:#2a7de1;text-decoration:none}
+  a.slug.live:hover{text-decoration:underline}
+  .row.done a.slug.live{color:#2a7de1}
+  .diff{font-size:11px;flex:none}
+  .diff.easy{color:var(--easy)} .diff.med{color:var(--med)} .diff.hard{color:var(--hard)}
+  .spacer{flex:1}
+  .detail{display:none;padding:0 13px 14px 41px;color:var(--dim);font-size:13.5px;border-top:1px solid var(--line)}
+  .row.open .detail{display:block}
+  .detail b{color:var(--txt)}
+  .kv{margin:9px 0}
+  .chips span{display:inline-block;background:var(--panel2);border:1px solid var(--line);border-radius:14px;padding:2px 9px;margin:2px 4px 2px 0;font-size:12px;color:var(--txt)}
+  .answer{background:var(--panel2);border-left:3px solid var(--teal);padding:9px 12px;border-radius:6px;color:var(--txt);margin:9px 0}
+  ul.h2{margin:6px 0;padding-left:18px}
+  .empty{color:var(--dim);text-align:center;padding:40px}
+  .note{margin:8px 0 0;color:var(--dim);font-size:12.5px}
+  .note summary{cursor:pointer;color:var(--teal);user-select:none}
+  .note .note-body{max-height:150px;overflow:auto;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 12px;margin-top:6px;white-space:pre-wrap;line-height:1.45}
+</style>
+</head>
+<body>
+<header>
+  <h1 id="ttl">Cluster Plan</h1>
+  <div class="sub" id="meta"></div>
+  <div class="bar"><i id="prog"></i></div>
+  <div class="sub" id="progtxt"></div>
+  <details class="note" id="noteBox" hidden>
+    <summary>Research notes (estimate-only methodology + coverage log)</summary>
+    <div class="note-body" id="noteBody"></div>
+  </details>
+  <div class="controls">
+    <select id="fCluster"></select>
+    <input type="search" id="q" placeholder="Search title, keyword, slug…">
+    <select id="fType"><option value="">All types</option><option value="pillar">Pillar</option><option value="article">Article</option><option value="qa">Q&amp;A</option></select>
+    <select id="fFacet"><option value="">All facets</option></select>
+    <select id="fTag"><option value="">All tags</option></select>
+    <select id="fStatus"><option value="">All</option><option value="todo">To do</option><option value="done">Done</option></select>
+    <select id="fSort"><option value="">Cluster order</option><option value="new">Newest first</option><option value="old">Oldest first</option></select>
+    <span class="count" id="count"></span>
+  </div>
+</header>
+<main id="list"></main>
+
+<script>
+  // Unified viewer — loads EVERY cluster data file listed below (works offline via file://).
+  // To add a new cluster: append its file name here (no .data.js suffix).
+  const CLUSTER_FILES = ["cluster-app-development-cost-australia", "roadmap-pillars"]; // roadmap = pillar shortlist; real cluster-*.data.js files get appended here by pillar-cluster-planner
+  // ?cluster=<name or "all"> preselects (default: all)
+  const _sel = new URLSearchParams(location.search).get("cluster") || "all";
+  for (const _f of CLUSTER_FILES) {
+    document.write('<script src="clusters/' + _f + '.data.js"><\/script>');
+    document.write('<script>window["C_' + _f + '"] = window.CLUSTER;<\/script>');
+  }
+</script>
+<script>
+const CLUSTERS = CLUSTER_FILES
+  .map(f => ({ file: f, data: window["C_" + f] }))
+  .filter(c => c.data && c.data.pages);
+// flatten pages, tagging each with its parent cluster
+const ALL = [];
+for (const c of CLUSTERS) {
+  const base = (c.data.wpBaseUrl || "https://pass-group.com.au").replace(/\/$/, "");
+  c.data.pages.forEach(p => {
+    p._cluster = c.file;
+    p._clusterTitle = c.data.pillarTitle || c.file;
+    p._liveBase = base;
+    const savedKey = "clusterDone:" + (c.data.pillarSlug || c.file);
+    const saved = JSON.parse(localStorage.getItem(savedKey) || "{}");
+    p.done = !!p.done || !!saved[p.slug]; // writer's data-file flag OR manual tick wins
+  });
+  ALL.push(...c.data.pages);
+}
+const KEY = f => "clusterDone:" + (CLUSTERS.find(c => c.file === f).data.pillarSlug || f);
+
+const $=s=>document.querySelector(s), list=$("#list");
+const scope = () => { const v=fCluster.value; return (!v || v === "all") ? ALL : ALL.filter(p=>p._cluster===v); };
+
+// cluster dropdown (keep ?cluster= working; "all" = unified)
+const fCluster=$("#fCluster");
+{
+  const oAll=document.createElement("option");oAll.value="all";oAll.textContent="All clusters ("+CLUSTERS.length+")";fCluster.appendChild(oAll);
+  CLUSTERS.forEach(c=>{const o=document.createElement("option");o.value=c.file;o.textContent=c.data.pillarTitle||c.file;fCluster.appendChild(o);});
+  fCluster.value = CLUSTER_FILES.includes(_sel) ? _sel : "all";
+  fCluster.addEventListener("change",()=>{const u=new URL(location);u.searchParams.set("cluster",fCluster.value);history.replaceState(null,"",u);fillFilters();header();progress();render();});
+}
+// facet + tag filters (union of the current scope)
+function fillFilters(){
+  const pages=scope();
+  const curF=$("#fFacet").value, curT=$("#fTag").value;
+  $("#fFacet").innerHTML='<option value="">All facets</option>';
+  [...new Set(pages.map(p=>p.facet))].forEach(f=>{const o=document.createElement("option");o.value=f;o.textContent=f;$("#fFacet").appendChild(o);});
+  $("#fFacet").value=[...$("#fFacet").options].some(o=>o.value===curF)?curF:"";
+  $("#fTag").innerHTML='<option value="">All tags</option>';
+  [...new Set(pages.flatMap(p=>p.tags||[]))].sort().forEach(t=>{const o=document.createElement("option");o.value=t;o.textContent="#"+t;$("#fTag").appendChild(o);});
+  $("#fTag").value=[...$("#fTag").options].some(o=>o.value===curT)?curT:"";
+}
+function header(){
+  const v=fCluster.value;
+  if(v==="all"){
+    $("#ttl").textContent="Cluster Plans ("+CLUSTERS.length+")";
+    $("#meta").textContent=CLUSTERS.map(c=>(c.data.pillarTitle||c.file)+" — "+c.data.pages.filter(p=>p.done).length+"/"+c.data.pages.length).join("  ·  ");
+    $("#noteBox").hidden=true;
+  }else{
+    const c=CLUSTERS.find(c=>c.file===v);
+    $("#ttl").textContent="Cluster: "+(c.data.pillarTitle||"");
+    // short meta only — the full research note goes in the collapsible box below (a long
+    // note here wraps the header into a wall of text and spawns browser overflow tooltips)
+    $("#meta").textContent=[c.data.category&&("Category: "+c.data.category),c.data.pillarKeyword&&("Pillar kw: "+c.data.pillarKeyword),c.data.pages.length+" pages"].filter(Boolean).join("  ·  ");
+    $("#noteBody").textContent=c.data.note||"";
+    $("#noteBox").hidden=!c.data.note;
+  }
+}
+function save(){
+  for(const c of CLUSTERS){
+    const m={};c.data.pages.forEach(p=>m[p.slug]=!!p.done);
+    localStorage.setItem(KEY(c.file),JSON.stringify(m));
+  }
+}
+function progress(){
+  const pages=scope(), t=pages.length, d=pages.filter(p=>p.done).length;
+  $("#prog").style.width=(t?d/t*100:0)+"%";
+  const by=k=>{const a=pages.filter(p=>p.type===k);return a.filter(p=>p.done).length+"/"+a.length;};
+  const per=CLUSTERS.filter(c=>v_inScope(c.file)).map(c=>(c.data.pillarTitle||c.file).replace(/:.*$/,"")+" "+c.data.pages.filter(p=>p.done).length+"/"+c.data.pages.length).join("  ·  ");
+  $("#progtxt").textContent=`${d}/${t} written  ·  Pillar ${by("pillar")} · Articles ${by("article")} · Q&A ${by("qa")}`+(fCluster.value==="all"?"  ·  "+per:"");
+}
+const v_inScope=f=>!fCluster.value||fCluster.value==="all"||fCluster.value===f;
+const liveUrl=p=>p._liveBase+"/"+String(p.slug).replace(/^\//,"")+"/";
+function badge(t){return t==="pillar"?'<span class="badge b-pillar">PILLAR</span>':t==="qa"?'<span class="badge b-qa">Q&amp;A</span>':'<span class="badge b-article">ARTICLE</span>';}
+
+function render(){
+  const q=$("#q").value.toLowerCase(), ft=$("#fType").value, ff=$("#fFacet").value, ftag=$("#fTag").value, fs=$("#fStatus").value, sort=$("#fSort").value;
+  const inScope=scope();
+  const rows=inScope.filter(p=>{
+    if(ft&&p.type!==ft)return false;
+    if(ff&&p.facet!==ff)return false;
+    if(ftag&&!(p.tags||[]).includes(ftag))return false;
+    if(fs==="done"&&!p.done)return false;
+    if(fs==="todo"&&p.done)return false;
+    if(q&&!(p.title+" "+p.keyword+" "+p.slug+" "+(p.secondary||[]).join(" ")+" "+(p.tags||[]).join(" ")).toLowerCase().includes(q))return false;
+    return true;
+  });
+  if(sort){rows.sort((a,b)=>{const da=a.created||"",db=b.created||"";if(!da&&!db)return 0;if(!da)return 1;if(!db)return -1;return sort==="new"?db.localeCompare(da):da.localeCompare(db);});}
+  $("#count").textContent=rows.length+" / "+inScope.length+" shown";
+  list.innerHTML="";
+  if(!rows.length){list.innerHTML='<div class="empty">No pages match.</div>';return;}
+  let curC=null,curF=null;
+  rows.forEach(p=>{
+    const groupHeaders=!sort;
+    if(groupHeaders&&p._cluster!==curC&&fCluster.value==="all"){
+      curC=p._cluster;curF=null;
+      const ch=document.createElement("div");ch.className="cluster-h";
+      const c=CLUSTERS.find(c=>c.file===p._cluster);
+      ch.innerHTML=(p._clusterTitle)+'<span class="sub">'+c.data.pages.filter(x=>x.done).length+"/"+c.data.pages.length+" written</span>";
+      list.appendChild(ch);
+    }
+    if(groupHeaders&&p.facet!==curF){curF=p.facet;const h=document.createElement("div");h.className="facet";
+      h.innerHTML=curF+" · <b>"+rows.filter(r=>r.facet===curF&&(!groupHeaders||r._cluster===p._cluster||(fCluster.value!=="all"))).length+"</b>";list.appendChild(h);}
+    const row=document.createElement("div");row.className="row"+(p.done?" done":"");
+    const sec=(p.secondary&&p.secondary.length)?`<div class="kv"><b>Secondary:</b><div class="chips">${p.secondary.map(s=>`<span>${s}</span>`).join("")}</div></div>`:"";
+    const h2=(p.h2s&&p.h2s.length)?`<div class="kv"><b>H2s:</b><ul class="h2">${p.h2s.map(h=>`<li>${h}</li>`).join("")}</ul></div>`:"";
+    const ans=p.answer?`<div class="kv"><b>Answer (≤50w):</b><div class="answer">${p.answer}</div></div>`:"";
+    const links=`<div class="kv"><b>Links:</b> ${p.linksUp?("up→ "+p.linksUp+"  "):""}${p.linksDown?("down→ "+p.linksDown+"  "):""}${(p.siblings&&p.siblings.length)?("siblings→ "+p.siblings.join(", ")):""}</div>`;
+    const tags=(p.tags&&p.tags.length)?`<div class="kv"><b>Tags:</b><div class="chips">${p.tags.map(t=>`<span>#${t}</span>`).join("")}</div></div>`:"";
+    const cl=(fCluster.value==="all")?`<div class="kv"><b>Cluster:</b> ${p._clusterTitle}</div>`:"";
+    row.innerHTML=`
+      <div class="head">
+        <input type="checkbox" class="cb" ${p.done?"checked":""}>
+        <span class="title">${p.title}</span>
+        ${badge(p.type)}
+        <span class="diff ${p.difficulty}">${p.difficulty||""}</span>
+        <span class="spacer"></span>
+        ${p.created?`<span class="cdate" title="Created">${p.created}</span>`:""}
+        ${p.done?`<a class="slug live" href="${liveUrl(p)}" target="_blank" rel="noopener" title="Open the live post">${p.slug} ↗</a>`:`<span class="slug">${p.slug}</span>`}
+      </div>
+      <div class="detail">
+        <div class="kv"><b>H1:</b> ${p.h1||p.title}</div>
+        <div class="kv"><b>Keyword:</b> ${p.keyword} · <b>Intent:</b> ${p.intent} · <b>Words:</b> ${p.words}</div>
+        ${cl}${sec}${h2}${ans}${links}${tags}
+        ${p.note?`<div class="kv"><b>Note:</b> ${p.note}</div>`:""}
+        ${p.cta?`<div class="kv"><b>CTA:</b> ${p.cta}</div>`:""}
+      </div>`;
+    const cb=row.querySelector(".cb");
+    cb.addEventListener("click",e=>{e.stopPropagation();p.done=cb.checked;row.classList.toggle("done",p.done);save();progress();header();});
+    row.querySelector(".head").addEventListener("click",e=>{if(e.target!==cb&&!e.target.closest("a"))row.classList.toggle("open");});
+    list.appendChild(row);
+  });
+}
+["q","fType","fFacet","fTag","fStatus","fSort"].forEach(id=>$("#"+id).addEventListener("input",render));
+fillFilters();header();progress();render();
+</script>
+</body>
+</html>

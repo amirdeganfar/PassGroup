@@ -1,0 +1,8 @@
+---
+description: 
+alwaysApply: true
+---
+
+When wanted to add a new library or dedency you must confirm it.
+Run the project and test it useing browser mcp, and check the screens
+always check and use the latest version of packages.

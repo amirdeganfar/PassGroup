@@ -1,0 +1,55 @@
+{
+  "//": "Site config for the Pass Group SEO content pipeline (skills + ledger.mjs read this). Adapted from the StepTo5K pipeline config.",
+  "siteName": "Pass Group",
+  "paths": {
+    "clustersDir": "docs/seo/clusters",
+    "pagesDir": "docs/seo/pages",
+    "heroesDir": "docs/seo/assets/heroes",
+    "manifest": "docs/seo/assets/heroes/manifest.json",
+    "pendingReupload": "docs/seo/assets/heroes/pending-reupload.json",
+    "stylesheet": "docs/seo/styles/pass-article.css"
+  },
+  "domain": "pass-group.com.au",
+  "blogBase": "https://pass-group.com.au",
+  "blogBaseNote": "WP posts live at site ROOT: https://pass-group.com.au/<slug>/ (verified Oct 2026). Blog archive is /category/blog/. Internal links = blogBase + '/' + slug + '/'.",
+  "homeCtaUrl": "https://pass-group.com.au/contact-us/",
+  "ctaUtm": "?utm_source=blog&utm_medium=cta&utm_campaign={cluster}&utm_content={slug}",
+  "author": {
+    "name": "David Sergi",
+    "jobTitle": "Founder, Pass Group",
+    "note": "Byline from existing blog posts. Confirm title/persona with client before first publish."
+  },
+  "brand": {
+    "product": "Pass Group",
+    "productType": "Melbourne-based software & mobile app design and development studio (custom iOS/Android apps, websites, maintenance)",
+    "ctaTitle": "Get a Free Consultation",
+    "ctaNote": "The conversion action is a free strategy session at contact-us. Free consultation IS genuinely free — that claim is allowed. Never promise fixed final prices, guaranteed app-store approval, or guaranteed rankings/results.",
+    "forbiddenClaims": ["guaranteed app store approval", "guaranteed results", "cheapest in Australia"]
+  },
+  "components": {
+    "prefix": "pass",
+    "articleWrapper": "pass-article",
+    "stylesheet": "docs/seo/styles/pass-article.css",
+    "note": "Stylesheet not yet created — port/adapt StepTo5K s5k-article.css (docs/seo/styles/) before the first article is written; skills emit classes only."
+  },
+  "facetTags": {
+    "//": "Populated by pillar-cluster-planner as clusters are planned: raw cluster facet -> WP tag {name, slug}.",
+    "Cost basics": { "name": "App Development Cost", "slug": "app-development-cost" },
+    "App types": { "name": "App Types", "slug": "app-types" },
+    "Complexity": { "name": "Complexity", "slug": "complexity" },
+    "Features": { "name": "App Features", "slug": "features" },
+    "MVP & prototypes": { "name": "MVP & Prototypes", "slug": "mvp" },
+    "Hidden & ongoing costs": { "name": "Hidden Costs", "slug": "hidden-costs" },
+    "Who builds it": { "name": "Who Builds It", "slug": "who-builds" },
+    "DIY & no-code": { "name": "DIY & No-Code", "slug": "diy-no-code" },
+    "Location": { "name": "AU Cities", "slug": "au-cities" },
+    "Budget tips": { "name": "Budgeting", "slug": "budgeting" },
+    "Quotes & contracts": { "name": "Quotes & Contracts", "slug": "quotes-contracts" },
+    "Payment models": { "name": "Payment Models", "slug": "payment-models" },
+    "Timelines": { "name": "Timelines", "slug": "timeline" },
+    "Platform choices": { "name": "Platform Choices", "slug": "platform" },
+    "Store & third-party fees": { "name": "Store Fees", "slug": "store-fees" },
+    "Tax & funding": { "name": "Tax & Funding", "slug": "tax-funding" },
+    "Risks & fixes": { "name": "Risks & Fixes", "slug": "risks" }
+  }
+}

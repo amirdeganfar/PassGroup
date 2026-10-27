@@ -1,0 +1,23 @@
+{
+  "slug": "how-much-does-it-cost-to-run-an-app",
+  "title": "How Much Does It Cost to Run an App? A First-Year Budget",
+  "seoTitle": "How Much Does It Cost to Run an App? A First-Year Budget",
+  "metaDescription": "How much does it cost to run an app? See the typical monthly bill for hosting, updates, store fees and support, plus a first-year budget.",
+  "focusKeyword": "how much does it cost to run an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/how-much-does-it-cost-to-run-an-app.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "featuredImage": { "source": "pexels", "query": "team meeting office planning budget", "alt": "Planning a first-year app running budget around a table" },
+  "postId": 1047,
+  "publishAt": "2026-11-10T09:00:00"
+}

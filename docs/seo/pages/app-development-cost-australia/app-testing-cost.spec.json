@@ -1,0 +1,27 @@
+{
+  "slug": "app-testing-cost",
+  "title": "How Much Does App Testing Cost?",
+  "seoTitle": "How Much Does App Testing Cost?",
+  "metaDescription": "How much does app testing cost in Australia? Usually nothing extra — it's inside the build quote. When a dedicated tester earns their fee.",
+  "focusKeyword": "how much does app testing cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-testing-cost.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1067,
+  "publishAt": "2026-11-28T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "mobile app testing phone",
+    "alt": "mobile app testing phone"
+  }
+}

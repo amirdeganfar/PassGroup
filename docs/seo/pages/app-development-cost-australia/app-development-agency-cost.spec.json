@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-agency-cost",
+  "title": "What an App Development Agency Costs in Australia",
+  "seoTitle": "App Development Agency Cost: AU Price Bands & Quotes",
+  "metaDescription": "App development agency cost in Australia: what the price bands buy, why agencies cost more than freelancers, and how to compare two quotes fairly.",
+  "focusKeyword": "app development agency cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-agency-cost.html",
+  "facet": "Who builds it",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1045,
+  "publishAt": "2026-11-16T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "creative agency team office",
+    "alt": "creative agency team office"
+  }
+}

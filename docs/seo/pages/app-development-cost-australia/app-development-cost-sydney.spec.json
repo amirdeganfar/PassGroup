@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-cost-sydney",
+  "title": "What App Development Costs in Sydney",
+  "seoTitle": "App Development Cost Sydney: What Founders Pay",
+  "metaDescription": "App development cost Sydney: realistic ranges for focused builds to complex platforms, why quotes run higher, and how to compare them with confidence.",
+  "focusKeyword": "app development cost sydney",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-cost-sydney.html",
+  "facet": "Location",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1066,
+  "publishAt": "2026-11-26T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "sydney city harbour",
+    "alt": "sydney city harbour"
+  }
+}

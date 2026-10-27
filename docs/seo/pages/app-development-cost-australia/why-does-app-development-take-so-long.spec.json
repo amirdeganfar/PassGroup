@@ -1,0 +1,27 @@
+{
+  "slug": "why-does-app-development-take-so-long",
+  "title": "Why Does App Development Take So Long?",
+  "seoTitle": "Why Does App Development Take So Long?",
+  "metaDescription": "Why does app development take so long? Hidden work, device testing and store review explain the weeks, and a smaller first version gets you live sooner.",
+  "focusKeyword": "why does app development take so long",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/why-does-app-development-take-so-long.html",
+  "facet": "Timelines",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1125,
+  "publishAt": "2026-12-18T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "waiting clock office",
+    "alt": "waiting clock office"
+  }
+}

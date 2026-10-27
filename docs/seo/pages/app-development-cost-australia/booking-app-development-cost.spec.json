@@ -1,0 +1,27 @@
+{
+  "slug": "booking-app-development-cost",
+  "title": "What a Booking App Costs for a Small Business",
+  "seoTitle": "Booking App Development Cost: What to Budget in 2026",
+  "metaDescription": "Booking app development cost in Australia: typical AUD ranges, the features that drive the price, when off-the-shelf wins, and the ongoing costs to budget.",
+  "focusKeyword": "booking app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/booking-app-development-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1006,
+  "publishAt": "2026-10-30T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "hotel booking phone",
+    "alt": "hotel booking phone"
+  }
+}

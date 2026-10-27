@@ -1,0 +1,27 @@
+{
+  "slug": "native-vs-cross-platform-app-development",
+  "title": "Native vs Cross-Platform App Development: Cost Compared",
+  "seoTitle": "Native vs Cross Platform App Development Costs",
+  "metaDescription": "Native vs cross platform app development: how build cost, upkeep and performance compare, and which suits a first app. Plain-English guide.",
+  "focusKeyword": "native vs cross platform app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/native-vs-cross-platform-app-development.html",
+  "facet": "Platform choices",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1121,
+  "publishAt": "2026-12-19T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "two phones comparison",
+    "alt": "two phones comparison"
+  }
+}

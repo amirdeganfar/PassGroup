@@ -1,0 +1,27 @@
+{
+  "slug": "app-for-ios-and-android-cost",
+  "title": "What It Costs to Build an App for Both iOS and Android",
+  "seoTitle": "How Much Does It Cost to Build an App for iOS and Android",
+  "metaDescription": "How much does it cost to build an app for iOS and Android? Typical Australian budgets for native, cross-platform or one platform first.",
+  "focusKeyword": "how much does it cost to build an app for ios and android",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-for-ios-and-android-cost.html",
+  "facet": "Platform choices",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1118,
+  "publishAt": "2026-12-20T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "two smartphones side by side",
+    "alt": "two smartphones side by side"
+  }
+}

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pass Group — Article Component Style Guide</title>
+<link rel="stylesheet" href="styles/pass-article.css">
+<style>
+  body{margin:0;background:#f4f6f8;font-family:Inter,system-ui,sans-serif}
+  .guide{max-width:1000px;margin:0 auto;padding:30px 20px 80px}
+  .guide-head{background:#00384c;color:#fff;border-radius:10px;padding:26px 30px;margin-bottom:26px}
+  .guide-head h1{margin:0 0 6px;font-size:26px}
+  .guide-head p{margin:0;opacity:.85;font-size:15px}
+  .usage{background:#eef3f6;border:1px solid #d7e0e6;border-radius:8px;padding:10px 14px;margin:0 0 14px;font-size:13px;color:#214669}
+  .usage code{background:#fff;border:1px solid #d7e0e6;border-radius:4px;padding:1px 6px;font-size:12px}
+  .demo-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#8aa0ad;margin:34px 0 8px;font-weight:700}
+  hr.guide-break{border:none;border-top:2px dashed #c9d4da;margin:40px 0}
+</style>
+</head>
+<body>
+<div class="guide">
+  <div class="guide-head">
+    <h1>Article component style guide — Pass Group</h1>
+    <p>Every widget the article-writer can use, rendered with the real site stylesheet (styles/pass-article.css). Same classes live in WP → Customize → Additional CSS. Rule: 3–5 components per article, picked to fit the content — never the whole menu.</p>
+  </div>
+
+  <div class="usage"><b>How to read this:</b> the grey box under each label tells you <em>when</em> to use that widget; the rendered block below it shows how it looks on the live site.</div>
+
+  <!-- ==================== CORE ==================== -->
+  <div class="demo-label">Key takeaways — pass-tldr</div>
+  <div class="usage">The "short version" for scanners, near the top. 3–4 bullets. Use on pillar pages + long articles. Snippet bait for Google.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-tldr"><div class="pass-tldr__label">Short version</div>
+      <ul>
+        <li>A simple app in Australia typically costs <b>$5,000–$20,000</b> — not the $30k–$300k most guides quote.</li>
+        <li>Four things set the price: screens, integrations, who builds it, and polish.</li>
+        <li>You pay once to build, then roughly 10–20% of the build cost per year to run it.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="demo-label">Single key takeaway — pass-keytakeaway</div>
+  <div class="usage">One highlighted sentence — the one thing to remember from the section. Alternative to the tldr box when you only have one takeaway. Tone-aware.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <p>Before you compare quotes, write down the three screens your app truly needs on day one. Everything else is version two.</p>
+    <div class="pass-keytakeaway">Smaller version one = faster launch = money left to improve it.</div>
+  </div>
+
+  <div class="demo-label">Drop-cap opener — pass-lead</div>
+  <div class="usage">Editorial opener. Use <b>once</b>, on the first paragraph only, for story-led articles.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <p class="pass-lead">The first quote came back at $180,000. The founder had $15,000, one idea, and a spreadsheet of forty-two features. Six months later the app was live — with eight of them.</p>
+  </div>
+
+  <div class="demo-label">Coach's story — pass-story (tone: gold)</div>
+  <div class="usage">A first-hand experience moment (E-E-A-T). One per article, in the author's voice. Label text can change to fit the story.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-story pass-gold"><div class="pass-story__label">A pattern we see weekly</div>
+      <p>Founders rarely blow their budget on features — they blow it on rebuilding the same screen three times because nobody wrote the scope down. One afternoon with a pen saves a month of invoices.</p>
+    </div>
+  </div>
+
+  <div class="demo-label">Callout / Tip / Warning — pass-callout · pass-tip · pass-warning</div>
+  <div class="usage">The single most important point of a section (callout), a helpful aside (tip), or a safety/"don't do this" note (warning). Max 2–3 per page, and only where they mean something.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-callout pass-sky">The build fee buys the code once — the maintenance fee keeps it working on every new phone model, year after year.</div>
+    <div class="pass-tip">Ask for the quote split by phase. Discovery, design, build, launch — each should be a separate number.</div>
+    <div class="pass-warning">Never start build before the scope document is signed. "We'll figure it out as we go" is how budgets double.</div>
+  </div>
+
+  <div class="demo-label">Data table — pass-table</div>
+  <div class="usage">Schedules, price bands, comparisons of numbers. Prefer a table over bullets for anything tabular — easiest thing on the page to scan.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <table class="pass-table">
+      <thead><tr><th>App type</th><th>Typical band (AUD)</th><th>Timeframe</th></tr></thead>
+      <tbody>
+        <tr><td>Simple app (8–10 screens)</td><td>$5,000–$20,000</td><td>6–10 weeks</td></tr>
+        <tr><td>Standard product (logins, payments)</td><td>$20,000–$60,000</td><td>3–5 months</td></tr>
+        <tr><td>Marketplace / complex platform</td><td>$60,000+</td><td>6+ months</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="demo-label">Stat cards — pass-stats · Number band — pass-numberline · Hero number — pass-gauge</div>
+  <div class="usage">Three ways to show key figures: a row of cards (stats), a joined big-number band (numberline), or one hero number on a tinted panel (gauge). Pick one per page — they're alternatives, not a set.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-stats">
+      <div class="pass-stat"><b>$5k–$20k</b><span>typical founder build</span></div>
+      <div class="pass-stat"><b>6–10 wks</b><span>simple app timeline</span></div>
+      <div class="pass-stat"><b>10–20%</b><span>yearly upkeep</span></div>
+    </div>
+    <div class="pass-numberline">
+      <div><b>4</b><span>things set the price</span></div>
+      <div><b>3</b><span>ways to build it</span></div>
+      <div><b>1</b><span>quote rule: scope first</span></div>
+    </div>
+    <div class="pass-gauge pass-sky"><b>$15,000</b><span>the budget most first apps actually need</span></div>
+  </div>
+
+  <div class="demo-label">Steps — pass-steps</div>
+  <div class="usage">Numbered step cards for any how-to. Each step = small heading + 1–2 sentences.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <ol class="pass-steps">
+      <li><h4>Write the one-paragraph brief</h4><p>Who uses it, what it does, what it must not do. If it takes more than five sentences, it's a spec, not a brief.</p></li>
+      <li><h4>List the screens</h4><p>Every screen adds cost. Ten is a normal first app.</p></li>
+      <li><h4>Get quotes split by phase</h4><p>Compare like with like — the same scope, priced three ways.</p></li>
+    </ol>
+  </div>
+
+  <div class="demo-label">Timeline — pass-timeline</div>
+  <div class="usage">Vertical week/phase dots — for "what happens when" (discovery → design → build → launch). Alternative to a plan table.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <ul class="pass-timeline">
+      <li><b>Weeks 1–2</b> — discovery workshop, fixed scope, fixed quote.</li>
+      <li><b>Weeks 3–5</b> — designs you click through before a line of code exists.</li>
+      <li><b>Weeks 6–10</b> — build, with a demo call every fortnight.</li>
+      <li><b>Week 11</b> — App Store and Google Play submission.</li>
+    </ul>
+  </div>
+
+  <div class="demo-label">Do / Don't — pass-dodont</div>
+  <div class="usage">Two-column green/coral list — for mistakes and corrections (myth-buster articles).</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-dodont">
+      <div class="is-do"><h4>Do</h4><ul>
+        <li>Fix the scope before the price</li>
+        <li>Launch small, improve monthly</li>
+        <li>Keep a 15% contingency</li>
+      </ul></div>
+      <div class="is-dont"><h4>Don't</h4><ul>
+        <li>Pay the full build upfront</li>
+        <li>Copy a competitor app feature-for-feature</li>
+        <li>Start without a signed IP clause</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <div class="demo-label">Comparison cards — pass-comparison</div>
+  <div class="usage">"This vs that" two-column cards — when the reader must pick between two options (native vs cross-platform, agency vs freelancer).</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-comparison">
+      <div class="is-a"><h4>Local agency</h4><ul>
+        <li>Same timezone, same language</li>
+        <li>Higher hourly rate ($120–200)</li>
+        <li>Face-to-face workshops</li>
+      </ul></div>
+      <div class="is-b"><h4>Offshore team</h4><ul>
+        <li>Lower hourly rate ($30–80)</li>
+        <li>More project management from you</li>
+        <li>Check IP and contract law carefully</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <div class="demo-label">Checklist — pass-checklist · Icon list — pass-iconlist</div>
+  <div class="usage">Light ticked list (checklist) vs the heavier designed list with dividers (iconlist — also used for the pillar's hub/related links section).</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <ul class="pass-checklist">
+      <li>Idea validated with five real potential users</li>
+      <li>Scope document signed</li>
+      <li>15% budget buffer set aside</li>
+    </ul>
+    <ul class="pass-iconlist">
+      <li><span>Fixed price for fixed scope — always.</span></li>
+      <li><span>Source-code IP lands with you, not the builder.</span></li>
+      <li class="is-skip"><span>Any quote that skips discovery entirely.</span></li>
+    </ul>
+  </div>
+
+  <div class="demo-label">FAQ accordion — pass-faq</div>
+  <div class="usage">Expandable Q&A — pair with FAQPage schema on pages answering several small questions. (Link each question to its own QA micro-page when one exists.)</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-faq">
+      <details><summary>Can I update the app myself after launch?</summary><div class="pass-faq__body"><p>Content like text and images — usually yes, through a simple admin panel. Code changes — no, that's what maintenance covers.</p></div></details>
+      <details><summary>Do I need an ABN to launch an app business in Australia?</summary><div class="pass-faq__body"><p>To charge for it, practically yes — and the ATO expects the income declared. Your developer doesn't need it; you do.</p></div></details>
+    </div>
+  </div>
+
+  <div class="demo-label">Pull quotes — pass-pullquote (big) · pass-quote (side)</div>
+  <div class="usage">One centered statement break (big) or a left-bar memorable line (side). Use sparingly — one per article at most.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <p class="pass-pullquote">A $15,000 app that ships beats a $150,000 app that doesn't.</p>
+    <blockquote class="pass-quote"><p>The expensive part was never the coding — it was the deciding.</p></blockquote>
+  </div>
+
+  <div class="demo-label">CTA box (every article) — pass-cta</div>
+  <div class="usage">The closing call-to-action. One per article, linking to the free consultation. Title is fixed by site config; button text can vary slightly.</div>
+  <div class="pass-article" style="padding:0 0 20px">
+    <div class="pass-cta"><div class="pass-cta__title">Get a Free Consultation</div>
+      <p>Want to know what YOUR idea would cost? Book a free strategy session — you'll leave with a realistic budget, whether you build with us or not.</p>
+      <a class="pass-cta__btn" href="https://pass-group.com.au/contact-us/">Book a free strategy session</a>
+    </div>
+  </div>
+
+  <hr class="guide-break">
+  <div class="usage"><b>Palette (tone modifiers):</b> <code>pass-mint</code> calm/recovery · <code>pass-sky</code> trust/science · <code>pass-gold</code> caution/effort · <code>pass-coral</code> energy/primary (default). Max 2–3 tones per article, never two different tones on adjacent blocks. <b>Never:</b> inline styles, SVGs, more than 5 components, two components with no prose between them.</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "slug": "how-long-does-it-take-to-build-an-app",
+  "title": "How Long It Takes to Build an App (and What Time Costs)",
+  "seoTitle": "How Long Does It Take to Build an App? Real Timelines",
+  "metaDescription": "How long does it take to build an app? Typical timelines from 6-12 weeks to 6 months, where the weeks go, and what rushing really costs.",
+  "focusKeyword": "how long does it take to build an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/how-long-does-it-take-to-build-an-app.html",
+  "facet": "Timelines",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1124,
+  "publishAt": "2026-12-17T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "clock laptop work",
+    "alt": "clock laptop work"
+  }
+}

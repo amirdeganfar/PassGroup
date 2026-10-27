@@ -1,0 +1,23 @@
+{
+  "slug": "app-maintenance-cost-per-month",
+  "title": "How Much Does It Cost to Maintain an App Per Month?",
+  "seoTitle": "How Much Does It Cost to Maintain an App Per Month?",
+  "metaDescription": "How much does it cost to maintain an app per month? Realistic Australian bands: under $100 on a lean setup, several hundred once your app is busy.",
+  "focusKeyword": "how much does it cost to maintain an app per month",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-maintenance-cost-per-month.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "featuredImage": { "source": "pexels", "query": "mobile app developer phone update", "alt": "Developer updating a mobile app — the monthly app maintenance bill in practice" },
+  "postId": 993,
+  "publishAt": "2026-10-26T09:00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "app-prototype-cost",
+  "title": "What an App Prototype Costs (and Why to Start There)",
+  "seoTitle": "App Prototype Cost: What You Pay and Why to Start There",
+  "metaDescription": "App prototype cost explained: typical prices for wireframes and clickable prototypes, how long they take, and why testing first can save you a rebuild.",
+  "focusKeyword": "app prototype cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-prototype-cost.html",
+  "facet": "MVP & prototypes",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1038,
+  "publishAt": "2026-11-08T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "wireframe sketch design",
+    "alt": "wireframe sketch design"
+  }
+}

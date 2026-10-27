@@ -1,0 +1,27 @@
+{
+  "slug": "rd-tax-incentive-app-development",
+  "title": "The R&D Tax Incentive for App Development: What to Claim",
+  "seoTitle": "The R&D Tax Incentive for App Development: What to Claim",
+  "metaDescription": "R&D tax incentive app development claims, explained in plain words: who qualifies, the current rates, and what you can claim with your tax agent.",
+  "focusKeyword": "r&d tax incentive app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/rd-tax-incentive-app-development.html",
+  "facet": "Tax & funding",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1166,
+  "publishAt": "2026-12-26T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "business innovation research",
+    "alt": "business innovation research"
+  }
+}

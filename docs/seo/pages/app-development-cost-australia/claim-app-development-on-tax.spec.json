@@ -1,0 +1,27 @@
+{
+  "slug": "claim-app-development-on-tax",
+  "title": "Can I Claim App Development on Tax?",
+  "seoTitle": "Can I Claim App Development on Tax?",
+  "metaDescription": "Can I claim app development on tax? Usually yes — some costs come off in the year you pay, others spread over time. Here's how it works, simply.",
+  "focusKeyword": "can i claim app development on tax",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/claim-app-development-on-tax.html",
+  "facet": "Tax & funding",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1165,
+  "publishAt": "2026-12-30T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "tax return paperwork",
+    "alt": "tax return paperwork"
+  }
+}

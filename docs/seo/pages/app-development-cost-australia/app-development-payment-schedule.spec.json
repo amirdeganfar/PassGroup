@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-payment-schedule",
+  "title": "How App Developers Charge: Deposits and Milestones",
+  "seoTitle": "App Development Payment Schedule: Deposits & Milestones",
+  "metaDescription": "A fair app development payment schedule explained: deposits, milestone payments, final handover and change requests, plus terms worth negotiating.",
+  "focusKeyword": "app development payment schedule",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-payment-schedule.html",
+  "facet": "Payment models",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1123,
+  "publishAt": "2026-12-16T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "calendar invoice payment",
+    "alt": "calendar invoice payment"
+  }
+}

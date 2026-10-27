@@ -1,0 +1,27 @@
+{
+  "slug": "web-app-development-cost-australia",
+  "title": "What a Web App Costs in Australia",
+  "seoTitle": "Web App Development Cost in Australia (2027 Guide)",
+  "metaDescription": "A plain guide to web app development cost in Australia — 2027 price bands in AUD, what drives them, and the running costs after launch.",
+  "focusKeyword": "web app development cost in australia",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/web-app-development-cost-australia.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "publishAt": "2027-01-06T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 14553707,
+    "alt": "Web app code on a screen during development"
+  },
+  "postId": 1302
+}

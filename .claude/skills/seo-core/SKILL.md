@@ -284,11 +284,14 @@ People **scan** in an F-pattern; they don't read word-for-word. Write for the sc
 - **Bold 2–3 key words** per paragraph (not whole sentences; keep <30% of text bold).
 - **Active voice**; "you/we"; common words; target reading **grade 8–10**.
 
-### Voice — between casual and formal [S-nng]
-Sound like a knowledgeable coach who reads research: second person, contractions,
-imperatives ("Try this"), encouraging but honest ("this is hard — here's how"). For a
-sports/running audience: concrete and specific beats generic ("run at a pace where you
-can talk but not sing" > "keep it conversational"). Vary sentence length for rhythm.
+### Voice — casual, very simple, easy to understand [S-nng]
+Sound like a knowledgeable practitioner who explains things over coffee. The persona is
+the site-config author (site-config `author`; StepTo5K: Chloe Hayes, running coach —
+Pass Group: David Sergi, app-development studio founder). For **Pass Group the site
+requirement is: very simple, casual, and easy to understand** — if a reader needs a
+second read to follow a sentence, rewrite the sentence. Second person, contractions,
+imperatives ("Try this"), encouraging but honest. Concrete and specific beats generic.
+Vary sentence length for rhythm. The simple-human rule below is the operative checklist.
 
 **Simple-human rule (site requirement — Pass Group):** every page must sound like a
 human explaining things simply, and be easy to understand and follow:

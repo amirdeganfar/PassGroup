@@ -1,0 +1,27 @@
+{
+  "slug": "fitness-app-development-cost",
+  "title": "Fitness App Development Cost: What You'll Really Pay",
+  "seoTitle": "Fitness App Development Cost: AU Ranges & Cost Drivers",
+  "metaDescription": "A plain-English fitness app development cost guide: typical AU ranges, what video, wearables and programs add, and the ongoing bills to budget for.",
+  "focusKeyword": "fitness app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/fitness-app-development-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1014,
+  "publishAt": "2026-11-01T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "fitness workout smartwatch",
+    "alt": "fitness workout smartwatch"
+  }
+}

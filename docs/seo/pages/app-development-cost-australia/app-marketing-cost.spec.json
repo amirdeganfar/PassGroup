@@ -1,0 +1,27 @@
+{
+  "slug": "app-marketing-cost",
+  "title": "What It Costs to Market an App After Launch",
+  "seoTitle": "App Marketing Cost: What to Budget After Launch",
+  "metaDescription": "See a realistic app marketing cost for year one — AUD bands, the free channels to try first, and what paid installs really charge.",
+  "focusKeyword": "app marketing cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-marketing-cost.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "publishAt": "2027-01-04T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 4604639,
+    "alt": "Tracking app marketing costs in an analytics dashboard"
+  },
+  "postId": 1275
+}

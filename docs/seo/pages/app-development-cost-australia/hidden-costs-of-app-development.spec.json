@@ -1,0 +1,27 @@
+{
+  "slug": "hidden-costs-of-app-development",
+  "title": "The Hidden Costs of Building an App Nobody Warns You About",
+  "seoTitle": "The Hidden Costs of Building an App Nobody Warns You About",
+  "metaDescription": "The hidden costs of app development in plain words: store fees, servers, updates and licences — plus a simple way to budget for each one.",
+  "focusKeyword": "hidden costs of app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/hidden-costs-of-app-development.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1046,
+  "publishAt": "2026-11-09T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "iceberg water",
+    "alt": "iceberg water"
+  }
+}

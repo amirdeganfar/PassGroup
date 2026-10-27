@@ -1,0 +1,321 @@
+/* ============================================================
+   Pass Group — article component + typography styles
+   Install once in WP → Appearance → Customize → Additional CSS
+   (or via REST custom_css post when app password exists).
+   Single source of truth — restyle here, never in posts.
+   Re-paste after any edit to restyle ALL articles globally
+   (purge W3 Total Cache afterwards or the change won't show).
+   Body wraps in <div class="pass-article">. Designed for the
+   Pacific theme's 1000px single-post column (.article-box /
+   .article-content), no sidebar.
+
+   Fonts: the Pacific theme declares Inter but never loads it —
+   the @import below loads it properly. If Inter is later
+   self-hosted (enqueued stylesheet / OMGF), DELETE this @import:
+   chained @imports are render-blocking.
+
+   Tokens follow the Pacific palette: petrol #00384c primary
+   (headings/panels), cyan #00bdf1 accent (#029eca wherever cyan
+   is text on white — raw cyan is low-contrast), navy #214669
+   meta, violet #5533ff primary buttons. Radius 6–8px (Pacific
+   is squarish — nothing rounded beyond 10px). Buttons are solid,
+   never the theme's dashed-outline look.
+   KSES-safe: classes only — zero inline styles, zero inline SVG.
+
+   ez-toc + YARPP inject their own markup inside/after content:
+   they get a neutral frame below — don't fight their own styling.
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --pass-ink: #00384c;        /* petrol — headings / panels / strong text */
+  --pass-body: #212529;       /* body copy (Bootstrap default) */
+  --pass-accent: #00bdf1;     /* cyan — brand accent (borders, highlights) */
+  --pass-accent-dk: #029eca;  /* readable cyan for text-on-white + hovers */
+  --pass-accent-deep: #007ea8;/* darker cyan for link hover */
+  --pass-navy: #214669;       /* meta text / captions */
+  --pass-violet: #5533ff;     /* primary buttons (theme nav-CTA colour) */
+  --pass-violet-dk: #2b00ff;
+  --pass-line: #e5e5e5;       /* hairline borders */
+  --pass-font: 'Inter', -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* ---- harmony palette: one primary + three supporting tones ----
+     Each tone = a strong colour (borders/labels/numbers) + a soft tint
+     (component backgrounds). Mixing 2–3 tones per article stays on-brand
+     because every tint is desaturated to the same softness. Apply a tone
+     to a tone-aware component with a modifier, e.g. class="pass-callout pass-sky". */
+  --pass-mint: #17997e;      --pass-mint-tint: #edf8f4;  --pass-mint-line: #c4e7dc; /* calm / go / maintenance  */
+  --pass-sky:  #2f6da8;      --pass-sky-tint:  #eef4fb;  --pass-sky-line:  #cddff2; /* trust / info / tech      */
+  --pass-gold: #b3872c;      --pass-gold-tint: #faf6ea;  --pass-gold-line: #e9d9a8; /* caution / effort         */
+  --pass-coral: #cf5b3f;     --pass-coral-tint: #fbf0ec; --pass-coral-line: #f2d4ca; /* primary-energy / don't   */
+  --pass-primary-tint: #e6f7fd; --pass-primary-line: #c0e9f8;                      /* default tone = cyan fam. */
+}
+
+/* ---- tone modifiers (shared by callout / story / keytakeaway / numberline / gauge) ----
+   set the local background, border and accent the component reads from. */
+.pass-mint  { --pass-tone: var(--pass-mint);      --pass-tone-tint: var(--pass-mint-tint);  --pass-tone-line: var(--pass-mint-line); }
+.pass-sky   { --pass-tone: var(--pass-sky);       --pass-tone-tint: var(--pass-sky-tint);   --pass-tone-line: var(--pass-sky-line); }
+.pass-gold  { --pass-tone: var(--pass-gold);      --pass-tone-tint: var(--pass-gold-tint);  --pass-tone-line: var(--pass-gold-line); }
+.pass-coral { --pass-tone: var(--pass-coral);     --pass-tone-tint: var(--pass-coral-tint); --pass-tone-line: var(--pass-coral-line); }
+
+/* ---- post title (rendered by Pacific outside .pass-article; theme gives it 900 + centered) ---- */
+.single .entry-title, .article-box .entry-title {
+  font-family: var(--pass-font); font-weight: 900; letter-spacing: -.01em;
+}
+
+/* ---- base typography + READABLE MEASURE (66ch) ----
+   CLASH: .article-content sets text-align: justify — reset to left. */
+.pass-article {
+  font-family: var(--pass-font);
+  color: var(--pass-body);
+  font-size: 18px; line-height: 1.8;
+  text-align: left;
+  max-width: 68ch;            /* the #1 readability win inside the 1000px article box */
+  margin-inline: auto;
+}
+.article-content .pass-article { text-align: left; }   /* out-rank the theme's justify rule */
+
+/* Pacific scale (≥1200px): h1 2.5rem / h2 2rem / h3 1.75rem / h4 1.5rem, weight 500 */
+.pass-article h1 { font-family: var(--pass-font); font-weight: 700; color: var(--pass-ink); font-size: 2.5rem; line-height: 1.2; margin: 1.6em 0 .6em; }
+.pass-article h2 {
+  font-family: var(--pass-font); font-weight: 500; letter-spacing: -.01em;
+  color: var(--pass-ink); font-size: 2rem; line-height: 1.2;
+  margin: 1.8em 0 .6em;        /* generous space above headings */
+}
+.pass-article h3 {
+  font-family: var(--pass-font); font-weight: 500;
+  color: var(--pass-ink); font-size: 1.75rem; margin: 1.6em 0 .5em;
+}
+.pass-article h4 {
+  font-family: var(--pass-font); font-weight: 500;
+  color: var(--pass-ink); font-size: 1.5rem; margin: 1.5em 0 .5em;
+}
+.pass-article p { margin: 0 0 1.25em; }
+/* CLASH: the theme strips link underlines with `a { text-decoration: none !important }` —
+   restore them at higher specificity, also !important. */
+.pass-article a { color: var(--pass-accent-dk); text-decoration: underline !important; text-underline-offset: 2px; }
+.pass-article a:hover { color: var(--pass-accent-deep); }
+.pass-article strong { color: var(--pass-ink); font-weight: 700; }
+.pass-article ul { margin: 0 0 1.3em; padding-left: 1.3em; }
+.pass-article li { margin: .4em 0; }
+/* lead paragraph: the first <p> after the TL;DR reads a touch larger */
+.pass-article > .pass-tldr + p { font-size: 1.08em; color: var(--pass-ink); }
+
+/* ---- TL;DR / key-takeaways card ---- */
+.pass-tldr { border: 1px solid var(--pass-primary-line); background: var(--pass-primary-tint); border-radius: 8px; padding: 20px 24px; margin: 0 0 28px; }
+.pass-tldr__label { font-family: var(--pass-font); margin: 0 0 10px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; font-size: 12px; color: var(--pass-accent-dk); }
+.pass-tldr ul { margin: 0; }
+
+/* ---- highlighted rule / takeaway callout (tone-aware: add pass-mint/-sky/-gold/-coral) ---- */
+.pass-callout { border-left: 5px solid var(--pass-tone, var(--pass-accent-dk)); background: var(--pass-tone-tint, var(--pass-primary-tint)); border-radius: 0 8px 8px 0; padding: 18px 22px; margin: 0 0 22px; }
+.pass-callout p { margin: 0; font-size: 1.05em; color: var(--pass-ink); }
+
+/* ---- tip / warning boxes (icon via ::before, markup stays clean) ---- */
+.pass-tip, .pass-warning { position: relative; border-radius: 8px; padding: 16px 20px 16px 52px; margin: 22px 0; }
+.pass-tip::before, .pass-warning::before { position: absolute; left: 18px; top: 16px; font-size: 20px; line-height: 1.4; }
+.pass-tip { border: 1px solid var(--pass-mint-line); background: var(--pass-mint-tint); }
+.pass-tip::before { content: "💡"; }
+.pass-warning { border: 1px solid var(--pass-gold-line); background: var(--pass-gold-tint); }
+.pass-warning::before { content: "⚠️"; }
+.pass-tip p, .pass-warning p { margin: 0; }
+
+/* ---- pull quote (left bar; Pacific's blockquote bg/border already on-palette — typography only) ---- */
+.pass-article .pass-quote { font-family: var(--pass-font); font-weight: 600; margin: 28px 0; border-left: 4px solid var(--pass-accent-dk); padding-left: 20px; font-size: 1.3em; line-height: 1.4; color: var(--pass-ink); font-style: normal; }
+
+/* ---- scroll wrapper for wide tables (body { overflow-x: hidden } — no page-level scroll) ----
+   wrap any wide table in <div class="pass-tablewrap"> … </div> */
+.pass-tablewrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 0 22px; }
+.pass-tablewrap .pass-table { margin-bottom: 0; }
+
+/* ---- schedule / data table (petrol header = footer/nav surface) ---- */
+.pass-table { width: 100%; border-collapse: collapse; font-size: .95em; border-radius: 8px; overflow: hidden; box-shadow: 0 0 0 1px var(--pass-line); }
+.pass-table thead tr { background: var(--pass-ink); color: #fff; text-align: left; }
+.pass-table th { font-family: var(--pass-font); font-weight: 600; }
+.pass-table th, .pass-table td { padding: 12px 16px; }
+.pass-table tbody tr { border-top: 1px solid #eef1f4; background: #fff; }
+.pass-table tbody tr:nth-child(even) { background: #f6f9fa; }
+.pass-table td:first-child { font-weight: 600; color: var(--pass-ink); }
+
+/* ---- call-to-action box ---- */
+.pass-cta { background: var(--pass-ink); border-radius: 8px; padding: 30px 28px; margin: 28px 0; text-align: center; }
+.pass-cta__title { font-family: var(--pass-font); margin: 0 0 6px; font-size: 1.4rem; font-weight: 700; color: #fff; }
+.pass-cta p { margin: 0 0 18px; color: #c9d6dd; }
+/* primary button: solid violet (theme nav-CTA colour) — never dashed outlines.
+   .pass-article prefix out-ranks our own !important underline rule above. */
+.pass-article .pass-cta__btn { font-family: var(--pass-font); display: inline-block; background: var(--pass-violet); color: #fff !important; font-weight: 600; text-decoration: none !important; padding: 13px 28px; border-radius: 6px; }
+.pass-article .pass-cta__btn:hover { background: var(--pass-violet-dk); }
+
+/* ---- drop cap (add class pass-lead to the intro paragraph) ---- */
+.pass-article p.pass-lead::first-letter {
+  font-family: var(--pass-font); font-weight: 800; float: left;
+  font-size: 3.4em; line-height: .82; padding: 6px 10px 0 0; color: var(--pass-accent-dk);
+}
+
+/* ---- stat callouts: a row of big-number cards ---- */
+.pass-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 14px; margin: 24px 0; }
+.pass-stat { background: #fff; border: 1px solid var(--pass-line); border-radius: 8px; padding: 18px 16px; text-align: center; box-shadow: 0 1px 2px rgba(0,56,76,.05); }
+.pass-stat b { font-family: var(--pass-font); display: block; font-size: 2em; font-weight: 700; line-height: 1; color: var(--pass-accent-dk); }
+.pass-stat span { display: block; margin-top: 6px; font-family: var(--pass-font); font-size: .8em; line-height: 1.3; color: var(--pass-navy); }
+
+/* ---- section divider ---- */
+.pass-article hr, .pass-divider { border: 0; height: 0; border-top: 2px solid var(--pass-line); width: 64px; margin: 36px 0; }
+
+/* ---- icon list (designed checklist; CSS icon, no inline SVG — WP strips SVG) ---- */
+.pass-iconlist { list-style: none; margin: 0 0 1.3em; padding: 0; }
+.pass-iconlist li { display: flex; gap: 14px; align-items: flex-start; padding: 13px 0; border-bottom: 1px solid var(--pass-line); }
+.pass-iconlist li:last-child { border-bottom: 0; }
+.pass-iconlist li > span { flex: 1; }
+.pass-iconlist li::before {
+  content: "\2713"; flex: 0 0 24px; width: 24px; height: 24px; margin-top: 2px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--pass-ink); color: #fff; border-radius: 50%;
+  font-family: var(--pass-font); font-weight: 700; font-size: 13px;
+}
+.pass-iconlist li.is-skip::before { content: "\2715"; background: #8a949e; }
+
+/* ---- interval strip (phased timeline; KSES-safe, no SVG) ---- */
+.pass-intervals { display: flex; gap: 4px; margin: 26px 0 6px; border-radius: 6px; overflow: hidden; }
+.pass-intervals + figcaption, .pass-figure .pass-intervals + figcaption { margin-top: 8px; }
+.pass-seg { display: flex; align-items: center; justify-content: center; padding: 14px 6px; min-width: 0;
+  font-family: var(--pass-font); font-weight: 600; font-size: 12px; letter-spacing: .03em;
+  text-transform: uppercase; text-align: center; color: #fff; }
+.pass-seg.is-run { background: var(--pass-ink); }
+.pass-seg.is-walk { background: var(--pass-line); color: var(--pass-ink); }
+.pass-seg.is-pad { background: #d9e2ef; color: var(--pass-navy); }
+.pass-seg.w1 { flex: 1; } .pass-seg.w2 { flex: 2; } .pass-seg.w3 { flex: 3; } .pass-seg.w4 { flex: 4; }
+
+/* ---- figure: image + caption ---- */
+.pass-figure { margin: 26px 0; }
+.pass-figure img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.pass-figure figcaption { font-family: var(--pass-font); font-size: .82em; color: var(--pass-navy); margin-top: 8px; text-align: center; }
+
+/* ============================================================
+   EXTENDED COMPONENT LIBRARY
+   Pick 2–4 per article (varied by archetype) — never use all at once.
+   Tone-aware components honour pass-mint/-sky/-gold/-coral modifiers.
+   All KSES-safe: div/span/class only, NO inline <svg>.
+   ============================================================ */
+
+/* ---- numberline: bolder big-number row (alt to pass-stats), tone-aware ---- */
+.pass-numberline { display: flex; flex-wrap: wrap; gap: 0; margin: 26px 0; border: 1px solid var(--pass-line); border-radius: 8px; overflow: hidden; }
+.pass-numberline > div { flex: 1 1 0; min-width: 130px; padding: 22px 18px; text-align: center; border-right: 1px solid var(--pass-line); background: #fff; }
+.pass-numberline > div:last-child { border-right: 0; }
+.pass-numberline b { font-family: var(--pass-font); display: block; font-size: 2.4em; font-weight: 700; line-height: 1; color: var(--pass-tone, var(--pass-accent-dk)); }
+.pass-numberline span { display: block; margin-top: 8px; font-family: var(--pass-font); font-size: .82em; line-height: 1.35; color: var(--pass-navy); }
+
+/* ---- gauge: a single hero figure / score ---- */
+.pass-gauge { text-align: center; margin: 28px 0; padding: 26px; border-radius: 8px; background: var(--pass-tone-tint, var(--pass-primary-tint)); }
+.pass-gauge b { font-family: var(--pass-font); display: block; font-size: 3.6em; font-weight: 700; line-height: 1; color: var(--pass-tone, var(--pass-accent-dk)); }
+.pass-gauge span { display: block; margin-top: 10px; font-family: var(--pass-font); font-size: 1em; color: var(--pass-ink); }
+
+/* ---- progress: phase-by-phase ramp bars (CSS widths w1..w10) ---- */
+.pass-progress { margin: 26px 0; display: grid; gap: 10px; }
+.pass-progress__row { display: grid; grid-template-columns: 90px 1fr; align-items: center; gap: 12px; }
+.pass-progress__row > span:first-child { font-family: var(--pass-font); font-weight: 600; font-size: .82em; color: var(--pass-ink); }
+.pass-progress__bar { height: 26px; border-radius: 6px; background: var(--pass-line); position: relative; overflow: hidden; }
+.pass-progress__bar > span { display: flex; align-items: center; height: 100%; padding: 0 10px; border-radius: 6px;
+  background: linear-gradient(90deg, var(--pass-accent-dk), var(--pass-ink)); color: #fff;
+  font-family: var(--pass-font); font-weight: 600; font-size: .76em; white-space: nowrap; }
+.pass-progress__bar.w1>span{width:14%}.pass-progress__bar.w2>span{width:25%}.pass-progress__bar.w3>span{width:36%}
+.pass-progress__bar.w4>span{width:47%}.pass-progress__bar.w5>span{width:58%}.pass-progress__bar.w6>span{width:67%}
+.pass-progress__bar.w7>span{width:76%}.pass-progress__bar.w8>span{width:85%}.pass-progress__bar.w9>span{width:93%}
+.pass-progress__bar.w10>span{width:100%}
+
+/* ---- comparison: two-column "this vs that" cards ---- */
+.pass-comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 26px 0; }
+.pass-comparison > div { border: 1px solid var(--pass-line); border-radius: 8px; padding: 20px 22px; background: #fff; }
+.pass-comparison h4 { font-family: var(--pass-font); font-weight: 600; margin: 0 0 10px; font-size: 1.05em; color: var(--pass-ink); }
+.pass-comparison .is-a { border-top: 4px solid var(--pass-sky); }
+.pass-comparison .is-b { border-top: 4px solid var(--pass-accent-dk); }
+.pass-comparison ul { margin: 0; padding-left: 1.2em; }
+
+/* ---- do / don't: mint vs coral columns ---- */
+.pass-dodont { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 26px 0; }
+.pass-dodont > div { border-radius: 8px; padding: 18px 20px; }
+.pass-dodont .is-do { background: var(--pass-mint-tint); border: 1px solid var(--pass-mint-line); }
+.pass-dodont .is-dont { background: var(--pass-coral-tint); border: 1px solid var(--pass-coral-line); }
+.pass-dodont h4 { font-family: var(--pass-font); font-weight: 600; margin: 0 0 8px; font-size: .9em; letter-spacing: .04em; text-transform: uppercase; }
+.pass-dodont .is-do h4 { color: var(--pass-mint); }
+.pass-dodont .is-dont h4 { color: var(--pass-coral); }
+.pass-dodont ul { margin: 0; padding-left: 1.2em; }
+.pass-dodont li { margin: .35em 0; }
+
+/* ---- pullquote: big centered editorial break ---- */
+.pass-pullquote { font-family: var(--pass-font); font-weight: 600; text-align: center; margin: 36px auto; max-width: 90%;
+  font-size: 1.7em; line-height: 1.3; color: var(--pass-ink); }
+.pass-pullquote::before { content: ""; display: block; width: 48px; height: 4px; margin: 0 auto 18px; border-radius: 2px; background: var(--pass-accent); }
+
+/* ---- story: first-hand practitioner panel (E-E-A-T experience), tone-aware ---- */
+.pass-story { position: relative; border-radius: 8px; padding: 22px 24px 22px 26px; margin: 28px 0;
+  background: var(--pass-tone-tint, var(--pass-sky-tint)); border: 1px solid var(--pass-tone-line, var(--pass-sky-line)); }
+.pass-story__label { font-family: var(--pass-font); font-weight: 600; letter-spacing: .05em; text-transform: uppercase;
+  font-size: 11px; margin: 0 0 8px; color: var(--pass-tone, var(--pass-sky)); }
+.pass-story p { margin: 0 0 .8em; font-style: italic; }
+.pass-story p:last-child { margin-bottom: 0; }
+
+/* ---- keytakeaway: single highlighted sentence band (alt to TL;DR), tone-aware ---- */
+.pass-keytakeaway { font-family: var(--pass-font); font-weight: 600; font-size: 1.15em; line-height: 1.45;
+  color: var(--pass-ink); border-radius: 8px; padding: 20px 24px; margin: 26px 0;
+  background: var(--pass-tone-tint, var(--pass-primary-tint)); border-left: 5px solid var(--pass-tone, var(--pass-accent-dk)); }
+
+/* ---- steps: numbered cards with big numerals ---- */
+.pass-steps { list-style: none; counter-reset: pass-step; margin: 26px 0; padding: 0; }
+.pass-steps > li { counter-increment: pass-step; position: relative; padding: 4px 0 18px 64px; margin: 0; }
+.pass-steps > li::before { content: counter(pass-step); position: absolute; left: 0; top: 0;
+  width: 44px; height: 44px; display: flex; align-items: center; justify-content: center;
+  background: var(--pass-ink); color: #fff; border-radius: 6px;
+  font-family: var(--pass-font); font-weight: 700; font-size: 1.2em; }
+.pass-steps h4 { font-family: var(--pass-font); font-weight: 600; margin: 6px 0 4px; color: var(--pass-ink); font-size: 1.05em; }
+.pass-steps p { margin: 0; }
+
+/* ---- timeline: vertical dotted phase/step list (alt to a table for plans) ---- */
+.pass-timeline { list-style: none; margin: 26px 0; padding: 0; position: relative; }
+.pass-timeline::before { content: ""; position: absolute; left: 9px; top: 6px; bottom: 6px; width: 2px; background: var(--pass-line); }
+.pass-timeline > li { position: relative; padding: 0 0 20px 36px; }
+.pass-timeline > li::before { content: ""; position: absolute; left: 3px; top: 4px; width: 14px; height: 14px;
+  border-radius: 50%; background: #fff; border: 3px solid var(--pass-accent-dk); }
+.pass-timeline > li:last-child { padding-bottom: 0; }
+.pass-timeline b { font-family: var(--pass-font); display: block; color: var(--pass-ink); }
+
+/* ---- checklist: ticked list, lighter than iconlist (no dividers) ---- */
+.pass-checklist { list-style: none; margin: 0 0 1.3em; padding: 0; }
+.pass-checklist li { display: flex; gap: 12px; align-items: flex-start; margin: .55em 0; }
+.pass-checklist li::before { content: "\2713"; flex: 0 0 22px; width: 22px; height: 22px; margin-top: 2px;
+  display: inline-flex; align-items: center; justify-content: center; background: var(--pass-mint); color: #fff;
+  border-radius: 6px; font-family: var(--pass-font); font-weight: 700; font-size: 12px; }
+
+/* ---- faq: lightweight accordion (works as plain blocks if JS-less), feeds FAQPage schema ---- */
+.pass-faq { margin: 26px 0; border: 1px solid var(--pass-line); border-radius: 8px; overflow: hidden; }
+.pass-faq details { border-top: 1px solid var(--pass-line); }
+.pass-faq details:first-child { border-top: 0; }
+.pass-faq summary { font-family: var(--pass-font); font-weight: 600; color: var(--pass-ink); cursor: pointer;
+  list-style: none; padding: 16px 48px 16px 20px; position: relative; }
+.pass-faq summary::-webkit-details-marker { display: none; }
+.pass-faq summary::after { content: "+"; position: absolute; right: 20px; top: 50%; transform: translateY(-50%);
+  font-size: 1.4em; color: var(--pass-accent-dk); font-family: var(--pass-font); }
+.pass-faq details[open] summary::after { content: "\2212"; }
+.pass-faq details[open] summary { color: var(--pass-accent-dk); }
+.pass-faq__body { padding: 0 20px 18px; }
+.pass-faq__body p { margin: 0; }
+
+/* ---- plugin-injected markup: neutral frame only — don't fight the plugins' own styles ----
+   ez-toc auto-inserts its box inside the content; YARPP appends related posts after it. */
+.pass-article .ez-toc-container { font-family: var(--pass-font); border: 1px solid var(--pass-line); border-radius: 8px; background: #fff; padding: 16px 20px; }
+.article-content .yarpp-related { font-family: var(--pass-font); border-top: 1px solid var(--pass-line); padding-top: 20px; margin-top: 36px; }
+
+/* ---- mobile ---- */
+@media (max-width: 600px) {
+  .pass-article { font-size: 17px; line-height: 1.7; }
+  .pass-article h1 { font-size: 2rem; }
+  .pass-article h2 { font-size: 1.6rem; }
+  .pass-article h3 { font-size: 1.4rem; }
+  .pass-article h4 { font-size: 1.25rem; }
+  .pass-table { display: block; overflow-x: auto; white-space: nowrap; }
+  .pass-tldr, .pass-callout, .pass-cta { padding-left: 18px; padding-right: 18px; }
+  .pass-seg { font-size: 10px; padding: 11px 3px; }
+  .pass-comparison, .pass-dodont { grid-template-columns: 1fr; }   /* stack columns */
+  .pass-numberline > div { flex-basis: 50%; }
+  .pass-pullquote { font-size: 1.35em; }
+  .pass-gauge b { font-size: 2.8em; }
+  .pass-progress__row { grid-template-columns: 70px 1fr; }
+}

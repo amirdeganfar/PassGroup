@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-grants-australia",
+  "title": "App Development Grants Australia: What's Actually Open",
+  "seoTitle": "App Development Grants Australia: What's Actually Open",
+  "metaDescription": "A plain guide to the app development grants Australia founders can still apply for in 2026 — what's open, what's closed, and what a grant pays for.",
+  "focusKeyword": "app development grants australia",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-grants-australia.html",
+  "facet": "Tax & funding",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1161,
+  "publishAt": "2026-12-27T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "startup funding meeting",
+    "alt": "startup funding meeting"
+  }
+}

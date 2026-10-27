@@ -1,0 +1,27 @@
+{
+  "slug": "why-do-app-quotes-vary",
+  "title": "Why Do App Development Quotes Vary So Much?",
+  "seoTitle": "Why Do App Development Quotes Vary So Much?",
+  "metaDescription": "Why do app development quotes vary so much? Each one prices different scope, design, testing and support. Here's how to compare quotes fairly.",
+  "focusKeyword": "why do app development quotes vary so much",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/why-do-app-quotes-vary.html",
+  "facet": "Quotes & contracts",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1128,
+  "publishAt": "2026-12-12T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "price comparison shopping",
+    "alt": "price comparison shopping"
+  }
+}

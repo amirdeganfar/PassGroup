@@ -1,0 +1,27 @@
+{
+  "slug": "what-affects-app-development-cost",
+  "title": "The 7 Things That Decide What Your App Costs",
+  "seoTitle": "What Affects App Development Cost: 7 Deciding Factors",
+  "metaDescription": "What affects app development cost? Seven factors decide your quote: features, logins, integrations, platforms, design, team and after-launch care.",
+  "focusKeyword": "what affects app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/what-affects-app-development-cost.html",
+  "facet": "Complexity",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1036,
+  "publishAt": "2026-11-06T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "balance scale decision",
+    "alt": "balance scale decision"
+  }
+}

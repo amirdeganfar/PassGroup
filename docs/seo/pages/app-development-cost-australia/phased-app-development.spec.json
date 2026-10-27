@@ -1,0 +1,27 @@
+{
+  "slug": "phased-app-development",
+  "title": "Phased App Development: Build in Stages, Pay in Stages",
+  "seoTitle": "Phased App Development: Build in Stages, Pay in Stages",
+  "metaDescription": "Phased app development explained: what each phase buys, how staging changes the quote, and the stage-gate rule that protects your budget from guesswork.",
+  "focusKeyword": "phased app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/phased-app-development.html",
+  "facet": "Budget tips",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1098,
+  "publishAt": "2026-11-30T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "building blocks steps",
+    "alt": "building blocks steps"
+  }
+}

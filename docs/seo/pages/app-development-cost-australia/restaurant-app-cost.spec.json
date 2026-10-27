@@ -1,0 +1,27 @@
+{
+  "slug": "restaurant-app-cost",
+  "title": "How Much Does It Cost to Build an App for a Restaurant?",
+  "seoTitle": "How Much Does It Cost to Build an App for a Restaurant?",
+  "metaDescription": "How much does it cost to build an app for a restaurant? A simple menu, bookings and ordering app starts in the low five figures in Australia.",
+  "focusKeyword": "how much does it cost to build an app for a restaurant",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/restaurant-app-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-09T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 4921020,
+    "alt": "Ordering food at a restaurant through an app"
+  },
+  "postId": 1318
+}

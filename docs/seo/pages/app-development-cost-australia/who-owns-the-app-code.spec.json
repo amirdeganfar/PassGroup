@@ -1,0 +1,27 @@
+{
+  "slug": "who-owns-the-app-code",
+  "title": "Who Owns the App When It's Built? IP, Code and Accounts",
+  "seoTitle": "Who Owns the App Code? IP, Accounts and Handover",
+  "metaDescription": "Who owns the app code after the build? In Australia the contractor keeps it unless your contract says otherwise. Here is how to own your app, code and all.",
+  "focusKeyword": "who owns the app code",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/who-owns-the-app-code.html",
+  "facet": "Quotes & contracts",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1106,
+  "publishAt": "2026-12-08T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "programming code screen",
+    "alt": "programming code screen"
+  }
+}

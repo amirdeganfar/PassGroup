@@ -39,7 +39,10 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-26",
+      "components": ["pass-tldr", "pass-table", "pass-story", "pass-faq", "pass-cta", "pass-iconlist"],
+      "linksPlaced": ["/how-much-does-it-cost-to-make-an-app-in-australia", "/app-development-cost-breakdown", "/app-development-cost-estimate", "/mobile-app-development-cost-australia"]
     },
     {
       "type": "article",
@@ -78,7 +81,11 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-26",
+      "components": ["pass-table", "pass-pullquote", "pass-story", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown"],
+      "linksDeferred": ["/mvp-development-cost", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -117,12 +124,16 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-25",
+      "components": ["pass-table", "pass-numberline", "pass-dodont", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate"],
+      "linksDeferred": ["/app-development-quote", "/what-affects-app-development-cost"]
     },
     {
       "type": "article",
       "facet": "Cost basics",
-      "title": "How to Estimate Your App Development Cost in 10 Minutes",
+      "title": "App Development Cost Estimate in 10 Minutes (Free Method)",
       "slug": "/app-development-cost-estimate",
       "keyword": "app development cost estimate",
       "secondary": [
@@ -130,7 +141,7 @@ window.CLUSTER = {
         "estimate app cost",
         "app budget estimate"
       ],
-      "h1": "How to Estimate Your App Development Cost in 10 Minutes",
+      "h1": "App Development Cost Estimate in 10 Minutes (Free Method)",
       "intent": "informational",
       "difficulty": "easy",
       "words": "~1,200",
@@ -156,7 +167,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-25",
+      "components": ["pass-tldr", "pass-table", "pass-callout", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown"],
+      "linksDeferred": ["/app-development-quote", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "qa",
@@ -180,7 +195,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-28",
+      "components": ["pass-gauge", "pass-table", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-much-does-it-cost-to-make-an-app-in-australia", "/app-development-cost-breakdown", "/how-long-does-it-take-to-build-an-mvp"]
     },
     {
       "type": "qa",
@@ -204,12 +222,15 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-28",
+      "components": ["pass-numberline", "pass-tip", "pass-callout", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate"]
     },
     {
       "type": "article",
       "facet": "App types",
-      "title": "Mobile App Development Costs in Australia: The Real Numbers",
+      "title": "Mobile App Development Cost in Australia: Real Numbers",
       "slug": "/mobile-app-development-cost-australia",
       "keyword": "mobile app development cost in australia",
       "secondary": [
@@ -217,7 +238,7 @@ window.CLUSTER = {
         "how much does a mobile app cost",
         "mobile app development prices"
       ],
-      "h1": "Mobile App Development Costs in Australia: The Real Numbers",
+      "h1": "Mobile App Development Cost in Australia: Real Numbers",
       "intent": "informational",
       "difficulty": "med",
       "words": "~1,200",
@@ -242,7 +263,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-25",
+      "components": ["pass-numberline", "pass-comparison", "pass-table", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia"],
+      "linksDeferred": ["/web-app-development-cost-australia", "/app-development-cost-melbourne", "/native-vs-cross-platform-app-development"]
     },
     {
       "type": "article",
@@ -280,7 +305,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-03",
+      "components": ["pass-tldr", "pass-numberline", "pass-story", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-development-cost-estimate", "/app-maintenance-cost-per-month", "/food-delivery-app-cost", "/how-long-does-it-take-to-build-an-mvp"],
+      "linksDeferred": ["/mvp-development-cost", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -318,7 +347,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-03",
+      "components": ["pass-callout", "pass-dodont", "pass-gauge", "pass-timeline", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month", "/can-you-build-an-app-for-free", "/how-much-does-it-cost-to-make-an-app-in-australia", "/social-media-app-development-cost"],
+      "linksDeferred": ["/cost-to-build-a-streaming-app", "/mvp-development-cost"]
     },
     {
       "type": "article",
@@ -356,7 +389,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-04",
+      "components": ["pass-table", "pass-iconlist", "pass-keytakeaway", "pass-tip", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/app-maintenance-cost-per-month", "/booking-app-development-cost", "/do-apps-need-a-server"],
+      "linksDeferred": ["/restaurant-app-cost", "/mvp-development-cost"]
     },
     {
       "type": "article",
@@ -394,7 +431,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-04",
+      "components": ["pass-stats", "pass-quote", "pass-comparison", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-cost-for-small-business", "/app-development-cost-australia", "/average-cost-to-make-an-app", "/stop-paying-app-maintenance"],
+      "linksDeferred": ["/app-vs-website-cost", "/cost-to-add-payments-to-an-app"]
     },
     {
       "type": "article",
@@ -432,7 +473,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-01",
+      "components": ["pass-tldr", "pass-table", "pass-stats", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-maintenance-cost-per-month", "/how-much-does-it-cost-to-make-an-app-in-australia"],
+      "linksDeferred": ["/healthcare-app-development-cost", "/mvp-development-cost", "/app-marketing-cost"]
     },
     {
       "type": "article",
@@ -469,7 +514,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-01",
+      "components": ["pass-numberline", "pass-comparison", "pass-story", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-like-instagram", "/can-you-build-an-app-for-free", "/do-apps-need-a-server", "/how-long-does-it-take-to-build-an-mvp"],
+      "linksDeferred": ["/mvp-development-cost", "/app-marketing-cost"]
     },
     {
       "type": "article",
@@ -506,7 +555,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-02",
+      "components": ["pass-gauge", "pass-table", "pass-dodont", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-development-cost-estimate", "/how-much-does-it-cost-to-make-an-app-in-australia"],
+      "linksDeferred": ["/mvp-development-cost", "/app-marketing-cost", "/app-prototype-cost"]
     },
     {
       "type": "article",
@@ -543,7 +596,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-02",
+      "components": ["pass-tldr", "pass-progress", "pass-story", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month", "/average-cost-to-make-an-app", "/social-media-app-development-cost"],
+      "linksDeferred": ["/app-marketing-cost", "/mvp-development-cost"]
     },
     {
       "type": "article",
@@ -580,7 +637,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-30",
+      "components": ["pass-tldr", "pass-numberline", "pass-table", "pass-comparison", "pass-cta"],
+      "linksPlaced": ["/app-cost-for-small-business", "/app-development-cost-australia", "/app-development-cost-breakdown", "/app-maintenance-cost-per-month"],
+      "linksDeferred": ["/restaurant-app-cost", "/app-vs-website-cost"]
     },
     {
       "type": "article",
@@ -617,7 +678,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-30",
+      "components": ["pass-keytakeaway", "pass-table", "pass-story", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/can-you-build-an-app-for-free", "/how-long-does-it-take-to-build-an-mvp"],
+      "linksDeferred": ["/mvp-development-cost", "/app-marketing-cost", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -654,7 +719,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-31",
+      "components": ["pass-table", "pass-comparison", "pass-steps", "pass-tip", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/app-maintenance-cost-per-month", "/booking-app-development-cost", "/can-you-build-an-app-for-free", "/stop-paying-app-maintenance"],
+      "linksDeferred": ["/app-vs-website-cost", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -691,7 +760,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-31",
+      "components": ["pass-gauge", "pass-iconlist", "pass-tip", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/do-apps-need-a-server", "/how-long-does-it-take-to-build-an-mvp"],
+      "linksDeferred": ["/complex-app-development-cost", "/what-affects-app-development-cost", "/mvp-development-cost"]
     },
     {
       "type": "article",
@@ -728,7 +801,11 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-05",
+      "components": ["pass-numberline", "pass-story", "pass-callout", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-development-cost-estimate", "/how-much-does-it-cost-to-build-an-app-like-uber", "/mvp-development-cost", "/simple-app-development-cost"],
+      "linksDeferred": ["/why-is-app-development-so-expensive"]
     },
     {
       "type": "article",
@@ -767,7 +844,11 @@ window.CLUSTER = {
         "features"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-06",
+      "components": ["pass-tldr", "pass-table", "pass-tip", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-maintenance-cost-per-month"],
+      "linksDeferred": ["/native-vs-cross-platform-app-development", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -806,7 +887,11 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-07",
+      "components": ["pass-keytakeaway", "pass-table", "pass-iconlist", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-cost-for-small-business", "/app-development-cost-australia", "/app-maintenance-cost-per-month", "/app-prototype-cost", "/how-long-does-it-take-to-build-an-mvp"],
+      "linksDeferred": ["/phased-app-development", "/how-to-reduce-app-development-costs"]
     },
     {
       "type": "article",
@@ -843,7 +928,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-08",
+      "components": ["pass-comparison", "pass-intervals", "pass-iconlist", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/how-long-does-it-take-to-build-an-mvp", "/mvp-development-cost"],
+      "linksDeferred": ["/phased-app-development"]
     },
     {
       "type": "qa",
@@ -866,7 +955,10 @@ window.CLUSTER = {
         "timeline"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-29",
+      "components": ["pass-keytakeaway", "pass-table", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/app-development-cost-breakdown", "/average-cost-to-make-an-app"]
     },
     {
       "type": "article",
@@ -904,7 +996,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-09",
+      "components": ["pass-lead", "pass-tldr", "pass-story", "pass-table", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-hosting-cost", "/app-maintenance-cost-per-month", "/app-store-fees", "/do-apps-need-a-server", "/how-much-does-it-cost-to-run-an-app"]
     },
     {
       "type": "article",
@@ -942,7 +1037,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-10",
+      "components": ["pass-lead", "pass-stats", "pass-quote", "pass-table", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-hosting-cost", "/app-maintenance-cost-per-month", "/app-maintenance-cost-per-year", "/app-store-fees", "/do-apps-need-a-server", "/stop-paying-app-maintenance"]
     },
     {
       "type": "article",
@@ -980,7 +1078,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-11",
+      "components": ["pass-lead", "pass-comparison", "pass-table", "pass-keytakeaway", "pass-timeline", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-hosting-cost", "/can-you-build-an-app-for-free", "/how-much-does-it-cost-to-make-an-app-in-australia", "/how-much-does-it-cost-to-run-an-app"]
     },
     {
       "type": "article",
@@ -1018,7 +1119,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-12",
+      "components": ["pass-lead", "pass-stats", "pass-iconlist", "pass-comparison", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-store-fees", "/do-apps-need-a-server", "/how-much-does-it-cost-to-run-an-app"]
     },
     {
       "type": "article",
@@ -1055,7 +1159,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-13",
+      "components": ["pass-lead", "pass-table", "pass-timeline", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month", "/app-maintenance-cost-per-year", "/stop-paying-app-maintenance"],
+      "linksDeferred": ["/cost-to-fix-a-bad-app", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -1092,7 +1200,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-14",
+      "components": ["pass-lead", "pass-numberline", "pass-comparison", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month", "/how-much-does-it-cost-to-run-an-app", "/stop-paying-app-maintenance"],
+      "linksDeferred": ["/app-redesign-cost", "/app-development-cost-melbourne"]
     },
     {
       "type": "qa",
@@ -1115,7 +1227,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-26",
+      "components": ["pass-numberline", "pass-tip", "pass-keytakeaway", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/mobile-app-development-cost-australia", "/do-apps-need-a-server", "/stop-paying-app-maintenance"]
     },
     {
       "type": "qa",
@@ -1138,7 +1253,10 @@ window.CLUSTER = {
         "features"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-27",
+      "components": ["pass-comparison", "pass-callout", "pass-gauge", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month"]
     },
     {
       "type": "qa",
@@ -1161,7 +1279,10 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-10-27",
+      "components": ["pass-timeline", "pass-warning", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-month"]
     },
     {
       "type": "qa",
@@ -1184,7 +1305,10 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-28",
+      "components": ["pass-keytakeaway", "pass-table", "pass-tip", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/freelance-app-developer-cost", "/hidden-costs-of-app-development", "/how-much-does-it-cost-to-update-an-app"]
     },
     {
       "type": "article",
@@ -1222,7 +1346,11 @@ window.CLUSTER = {
         "au-cities"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-15",
+      "components": ["pass-lead", "pass-table", "pass-warning", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-cost-for-small-business", "/app-development-agency-cost", "/app-development-cost-australia", "/app-development-cost-breakdown", "/app-maintenance-cost-per-month"],
+      "linksDeferred": ["/freelance-vs-agency-app-development", "/app-developer-hourly-rate-australia"]
     },
     {
       "type": "article",
@@ -1259,7 +1387,11 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-16",
+      "components": ["pass-lead", "pass-table", "pass-stats", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/freelance-app-developer-cost", "/how-much-does-it-cost-to-make-an-app-in-australia"],
+      "linksDeferred": ["/app-development-quote", "/freelance-vs-agency-app-development"]
     },
     {
       "type": "article",
@@ -1297,7 +1429,11 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-17",
+      "components": ["pass-table", "pass-warning", "pass-story", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/freelance-app-developer-cost", "/freelance-vs-agency-app-development", "/hidden-costs-of-app-development"],
+      "linksDeferred": ["/app-development-red-flags", "/cost-to-fix-a-bad-app"]
     },
     {
       "type": "article",
@@ -1334,7 +1470,11 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-18",
+      "components": ["pass-table", "pass-comparison", "pass-keytakeaway", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-development-agency-cost", "/app-development-cost-australia", "/app-maintenance-cost-per-month", "/freelance-app-developer-cost", "/pay-someone-to-build-an-app"],
+      "linksDeferred": ["/app-development-contract"]
     },
     {
       "type": "article",
@@ -1372,7 +1512,11 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-19",
+      "components": ["pass-steps", "pass-table", "pass-story", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/mvp-development-cost"],
+      "linksDeferred": ["/app-development-payment-schedule", "/who-owns-the-app-code", "/app-development-contract"]
     },
     {
       "type": "qa",
@@ -1395,7 +1539,10 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-20",
+      "components": ["pass-story", "pass-checklist", "pass-dodont", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-agency-cost", "/app-development-cost-australia", "/freelance-app-developer-cost"]
     },
     {
       "type": "article",
@@ -1432,7 +1579,10 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-21",
+      "components": ["pass-tldr", "pass-table", "pass-numberline", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/can-you-build-an-app-for-free", "/cost-to-build-an-app-with-ai", "/freelance-app-developer-cost", "/mvp-development-cost", "/no-code-app-development-cost"]
     },
     {
       "type": "article",
@@ -1470,7 +1620,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-22",
+      "components": ["pass-table", "pass-comparison", "pass-callout", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-prototype-cost", "/can-i-build-an-app-without-coding", "/can-you-build-an-app-for-free", "/cost-to-build-an-app-with-ai", "/cost-to-make-an-app-by-yourself", "/how-much-does-it-cost-to-run-an-app"]
     },
     {
       "type": "article",
@@ -1508,7 +1661,11 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-23",
+      "components": ["pass-numberline", "pass-table", "pass-dodont", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-prototype-cost", "/cost-to-make-an-app-by-yourself", "/hidden-costs-of-app-development", "/mvp-development-cost", "/no-code-app-development-cost"],
+      "linksDeferred": ["/cost-to-add-ai-to-an-app"]
     },
     {
       "type": "qa",
@@ -1531,7 +1688,10 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-24",
+      "components": ["pass-tldr", "pass-iconlist", "pass-comparison", "pass-numberline", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-prototype-cost", "/can-you-build-an-app-for-free"]
     },
     {
       "type": "article",
@@ -1568,7 +1728,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-25",
+      "components": ["pass-table", "pass-tip", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-developer-hourly-rate-australia", "/app-development-agency-cost", "/app-development-cost-australia", "/app-development-cost-sydney", "/how-much-does-it-cost-to-make-an-app-in-australia"]
     },
     {
       "type": "article",
@@ -1605,7 +1768,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-26",
+      "components": ["pass-lead", "pass-table", "pass-callout", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-agency-cost", "/app-development-cost-australia", "/freelance-app-developer-cost", "/how-much-does-it-cost-to-make-an-app-in-australia"]
     },
     {
       "type": "article",
@@ -1642,7 +1808,11 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-27",
+      "components": ["pass-table", "pass-stats", "pass-comparison", "pass-story", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-agency-cost", "/app-development-cost-australia", "/app-development-cost-melbourne", "/freelance-app-developer-cost"],
+      "linksDeferred": ["/app-development-quote"]
     },
     {
       "type": "qa",
@@ -1665,7 +1835,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-09",
+      "components": ["pass-stats", "pass-callout", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-developer-hourly-rate-australia", "/app-development-cost-australia", "/app-development-cost-melbourne", "/app-development-cost-sydney"]
     },
     {
       "type": "qa",
@@ -1688,7 +1861,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-10",
+      "components": ["pass-gauge", "pass-table", "pass-tip", "pass-cta"],
+      "linksPlaced": ["/app-developer-hourly-rate-australia", "/app-development-cost-australia", "/app-development-cost-melbourne", "/app-development-cost-sydney"]
     },
     {
       "type": "qa",
@@ -1711,7 +1887,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-04",
+      "components": ["pass-numberline", "pass-comparison", "pass-checklist", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-developer-hourly-rate-australia", "/app-development-cost-australia", "/app-development-cost-melbourne", "/app-development-cost-sydney"]
     },
     {
       "type": "article",
@@ -1749,7 +1928,10 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-29",
+      "components": ["pass-tldr", "pass-iconlist", "pass-dodont", "pass-table", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-testing-cost", "/mvp-development-cost", "/phased-app-development", "/what-affects-app-development-cost"]
     },
     {
       "type": "article",
@@ -1787,7 +1969,10 @@ window.CLUSTER = {
         "mvp"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-11-30",
+      "components": ["pass-lead", "pass-comparison", "pass-keytakeaway", "pass-timeline", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/how-to-reduce-app-development-costs", "/mvp-development-cost"]
     },
     {
       "type": "qa",
@@ -1811,7 +1996,10 @@ window.CLUSTER = {
         "mvp"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-01",
+      "components": ["pass-tldr", "pass-dodont", "pass-story", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/cost-to-make-an-app-by-yourself", "/hidden-costs-of-app-development", "/mvp-development-cost", "/no-code-app-development-cost"]
     },
     {
       "type": "qa",
@@ -1835,7 +2023,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-02",
+      "components": ["pass-keytakeaway", "pass-stats", "pass-tip", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/hidden-costs-of-app-development", "/how-much-does-it-cost-to-run-an-app", "/mvp-development-cost"]
     },
     {
       "type": "qa",
@@ -1858,7 +2049,10 @@ window.CLUSTER = {
         "payment-models"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-03",
+      "components": ["pass-steps", "pass-warning", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/freelance-vs-agency-app-development"]
     },
     {
       "type": "article",
@@ -1896,7 +2090,11 @@ window.CLUSTER = {
         "payment-models"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-05",
+      "components": ["pass-tldr", "pass-table", "pass-callout", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-developer-hourly-rate-australia", "/app-development-cost-australia", "/app-development-cost-estimate", "/app-development-proposal", "/hidden-costs-of-app-development"],
+      "linksDeferred": ["/app-development-red-flags", "/fixed-price-vs-time-and-materials"]
     },
     {
       "type": "article",
@@ -1933,7 +2131,11 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-06",
+      "components": ["pass-lead", "pass-story", "pass-numberline", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/complex-app-development-cost", "/mvp-development-cost"],
+      "linksDeferred": ["/why-do-app-quotes-vary"]
     },
     {
       "type": "article",
@@ -1970,7 +2172,11 @@ window.CLUSTER = {
         "payment-models"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-07",
+      "components": ["pass-tldr", "pass-table", "pass-steps", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-developer-disappeared", "/app-development-agency-cost", "/app-development-cost-australia", "/app-development-quote", "/pay-for-app-in-installments", "/who-owns-the-app-code"],
+      "linksDeferred": ["/app-development-contract", "/what-to-include-in-an-app-brief"]
     },
     {
       "type": "article",
@@ -2008,7 +2214,11 @@ window.CLUSTER = {
         "founders"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-08",
+      "components": ["pass-callout", "pass-checklist", "pass-story", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-developer-disappeared", "/app-development-cost-australia", "/offshore-app-development-cost"],
+      "linksDeferred": ["/app-development-contract", "/app-development-red-flags"]
     },
     {
       "type": "article",
@@ -2045,7 +2255,10 @@ window.CLUSTER = {
         "payment-models"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-11",
+      "components": ["pass-tldr", "pass-table", "pass-steps", "pass-callout", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-developer-disappeared", "/app-development-cost-australia", "/app-development-payment-schedule", "/app-development-proposal", "/app-development-quote", "/hidden-costs-of-app-development", "/who-owns-the-app-code"]
     },
     {
       "type": "qa",
@@ -2068,7 +2281,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-12",
+      "components": ["pass-keytakeaway", "pass-checklist", "pass-comparison", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-quote", "/freelance-vs-agency-app-development", "/how-many-app-quotes", "/why-is-app-development-so-expensive"]
     },
     {
       "type": "qa",
@@ -2091,7 +2307,10 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-13",
+      "components": ["pass-steps", "pass-tip", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/phased-app-development"]
     },
     {
       "type": "qa",
@@ -2114,7 +2333,10 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-14",
+      "components": ["pass-numberline", "pass-checklist", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-quote", "/how-to-reduce-app-development-costs", "/what-to-include-in-an-app-brief"]
     },
     {
       "type": "article",
@@ -2151,7 +2373,10 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-15",
+      "components": ["pass-keytakeaway", "pass-comparison", "pass-story", "pass-table", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-contract", "/app-development-cost-australia", "/app-development-payment-schedule", "/app-development-quote", "/phased-app-development"]
     },
     {
       "type": "article",
@@ -2188,7 +2413,10 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-16",
+      "components": ["pass-lead", "pass-stats", "pass-steps", "pass-callout", "pass-story", "pass-iconlist", "pass-cta"],
+      "linksPlaced": ["/app-developer-disappeared", "/app-development-cost-australia", "/app-development-quote", "/pay-for-app-in-installments", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2225,7 +2453,10 @@ window.CLUSTER = {
         "timeline"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-17",
+      "components": ["pass-numberline", "pass-progress", "pass-story", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-estimate", "/app-maintenance-cost-per-year", "/how-long-does-it-take-to-build-an-mvp", "/phased-app-development", "/why-does-app-development-take-so-long"]
     },
     {
       "type": "qa",
@@ -2248,7 +2479,10 @@ window.CLUSTER = {
         "timeline"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-18",
+      "components": ["pass-keytakeaway", "pass-table", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-testing-cost", "/how-long-does-it-take-to-build-an-app", "/how-long-does-it-take-to-build-an-mvp"]
     },
     {
       "type": "article",
@@ -2286,7 +2520,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-19",
+      "components": ["pass-comparison", "pass-table", "pass-story", "pass-keytakeaway", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-for-ios-and-android-cost", "/app-maintenance-cost-per-year", "/app-store-fees", "/mobile-app-development-cost-australia", "/mvp-development-cost", "/what-affects-app-development-cost", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2323,7 +2560,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-20",
+      "components": ["pass-tldr", "pass-numberline", "pass-story", "pass-steps", "pass-tip", "pass-cta"],
+      "linksPlaced": ["/android-app-development-cost", "/app-development-cost-australia", "/app-maintenance-cost-per-year", "/app-store-fees", "/app-testing-cost", "/hidden-costs-of-app-development", "/ios-app-development-cost", "/native-vs-cross-platform-app-development", "/phased-app-development", "/simple-app-development-cost", "/what-affects-app-development-cost"]
     },
     {
       "type": "qa",
@@ -2346,7 +2586,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-21",
+      "components": ["pass-gauge", "pass-iconlist", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-for-ios-and-android-cost", "/app-store-fees", "/how-much-does-it-cost-to-update-an-app", "/mvp-development-cost", "/simple-app-development-cost"]
     },
     {
       "type": "qa",
@@ -2369,7 +2612,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-22",
+      "components": ["pass-stats", "pass-warning", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-for-ios-and-android-cost", "/app-store-fees", "/app-testing-cost", "/phased-app-development"]
     },
     {
       "type": "qa",
@@ -2392,7 +2638,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-23",
+      "components": ["pass-lead", "pass-numberline", "pass-callout", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-year", "/app-store-fees", "/apple-developer-account-cost", "/cost-to-put-an-app-on-google-play", "/hidden-costs-of-app-development"]
     },
     {
       "type": "qa",
@@ -2415,7 +2664,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-24",
+      "components": ["pass-lead", "pass-gauge", "pass-tldr", "pass-table", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/android-app-development-cost", "/app-development-cost-australia", "/app-store-fees", "/cost-to-put-an-app-on-the-app-store"]
     },
     {
       "type": "qa",
@@ -2438,7 +2690,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-25",
+      "components": ["pass-lead", "pass-keytakeaway", "pass-checklist", "pass-timeline", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-store-fees", "/cost-to-put-an-app-on-the-app-store", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2475,7 +2730,10 @@ window.CLUSTER = {
         "tax"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-26",
+      "components": ["pass-lead", "pass-stats", "pass-dodont", "pass-story", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-development-costs-ato", "/app-development-grants-australia", "/how-to-get-funding-for-an-app", "/realistic-app-budget"]
     },
     {
       "type": "article",
@@ -2512,7 +2770,10 @@ window.CLUSTER = {
         "tax"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-27",
+      "components": ["pass-table", "pass-dodont", "pass-callout", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-to-get-funding-for-an-app", "/mvp-development-cost", "/rd-tax-incentive-app-development", "/realistic-app-budget"]
     },
     {
       "type": "article",
@@ -2549,7 +2810,10 @@ window.CLUSTER = {
         "tax"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-28",
+      "components": ["pass-keytakeaway", "pass-table", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-contract", "/app-development-cost-australia", "/app-development-cost-breakdown", "/rd-tax-incentive-app-development"]
     },
     {
       "type": "article",
@@ -2586,7 +2850,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-29",
+      "components": ["pass-numberline", "pass-comparison", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-grants-australia", "/mvp-development-cost", "/phased-app-development", "/rd-tax-incentive-app-development", "/realistic-app-budget"]
     },
     {
       "type": "qa",
@@ -2609,7 +2876,10 @@ window.CLUSTER = {
         "tax"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-30",
+      "components": ["pass-keytakeaway", "pass-table", "pass-warning", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-cost-breakdown", "/app-development-costs-ato", "/rd-tax-incentive-app-development"]
     },
     {
       "type": "article",
@@ -2646,7 +2916,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2026-12-31",
+      "components": ["pass-table", "pass-story", "pass-warning", "pass-comparison", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-red-flags", "/cheapest-way-to-build-an-app", "/cost-to-fix-a-bad-app", "/simple-app-development-cost", "/why-do-app-quotes-vary"]
     },
     {
       "type": "article",
@@ -2684,7 +2957,10 @@ window.CLUSTER = {
         "who-builds"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-01",
+      "components": ["pass-story", "pass-numberline", "pass-steps", "pass-cta"],
+      "linksPlaced": ["/app-developer-disappeared", "/app-development-cost-australia", "/app-development-red-flags", "/app-maintenance-cost-per-year", "/app-redesign-cost", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2721,7 +2997,10 @@ window.CLUSTER = {
         "quotes-contracts"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-02",
+      "components": ["pass-iconlist", "pass-story", "pass-tip", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-contract", "/app-development-cost-australia", "/app-development-quote", "/cheap-app-development", "/cost-to-fix-a-bad-app", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2758,7 +3037,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-03",
+      "components": ["pass-stats", "pass-table", "pass-story", "pass-keytakeaway", "pass-checklist", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-maintenance-cost-per-year", "/cost-to-fix-a-bad-app", "/how-much-does-it-cost-to-update-an-app", "/who-owns-the-app-code"]
     },
     {
       "type": "article",
@@ -2795,7 +3077,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-04",
+      "components": ["pass-tldr", "pass-numberline", "pass-story", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-much-does-it-cost-to-run-an-app", "/app-store-fees", "/app-maintenance-cost-per-year"]
     },
     {
       "type": "article",
@@ -2832,7 +3117,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-05",
+      "components": ["pass-comparison", "pass-table", "pass-checklist", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-store-fees", "/app-cost-for-small-business", "/web-app-development-cost-australia"]
     },
     {
       "type": "article",
@@ -2869,7 +3157,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-06",
+      "components": ["pass-tldr", "pass-table", "pass-story", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/what-affects-app-development-cost", "/mobile-app-development-cost-australia", "/mvp-development-cost", "/app-vs-website-cost"]
     },
     {
       "type": "qa",
@@ -2893,7 +3184,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-04",
+      "components": ["pass-numberline", "pass-comparison", "pass-story", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/realistic-app-budget", "/how-much-does-it-cost-to-run-an-app", "/mvp-development-cost"]
     },
     {
       "type": "qa",
@@ -2916,7 +3210,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-05",
+      "components": ["pass-keytakeaway", "pass-table", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-testing-cost", "/app-store-fees", "/hidden-costs-of-app-development", "/ecommerce-app-development-cost"]
     },
     {
       "type": "qa",
@@ -2939,7 +3236,10 @@ window.CLUSTER = {
         "hidden-costs"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-06",
+      "components": ["pass-dodont", "pass-checklist", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-much-does-it-cost-to-run-an-app", "/social-media-app-development-cost"]
     },
     {
       "type": "qa",
@@ -2962,7 +3262,10 @@ window.CLUSTER = {
         "hidden-costs"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-07",
+      "components": ["pass-comparison", "pass-gauge", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/food-delivery-app-cost", "/how-much-does-it-cost-to-run-an-app"]
     },
     {
       "type": "qa",
@@ -2985,7 +3288,10 @@ window.CLUSTER = {
         "store-fees"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-07",
+      "components": ["pass-keytakeaway", "pass-comparison", "pass-gauge", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-store-fees", "/app-hosting-cost", "/what-affects-app-development-cost"]
     },
     {
       "type": "qa",
@@ -3008,7 +3314,10 @@ window.CLUSTER = {
         "diy-no-code"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-08",
+      "components": ["pass-stats", "pass-dodont", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-much-does-it-cost-to-run-an-app", "/how-much-does-it-cost-to-make-an-app-in-australia", "/cost-to-build-an-app-with-ai"]
     },
     {
       "type": "qa",
@@ -3031,7 +3340,10 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-08",
+      "components": ["pass-table", "pass-numberline", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/what-affects-app-development-cost", "/do-apps-need-a-server", "/banking-app-development-cost"]
     },
     {
       "type": "qa",
@@ -3054,7 +3366,10 @@ window.CLUSTER = {
         "budgeting"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-09",
+      "components": ["pass-stats", "pass-comparison", "pass-keytakeaway", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/food-delivery-app-cost", "/app-cost-for-small-business", "/booking-app-development-cost"]
     },
     {
       "type": "qa",
@@ -3077,7 +3392,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-09",
+      "components": ["pass-numberline", "pass-callout", "pass-faq", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-hosting-cost", "/app-like-instagram"]
     },
     {
       "type": "qa",
@@ -3100,7 +3418,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-10",
+      "components": ["pass-keytakeaway", "pass-gauge", "pass-dodont", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/booking-app-development-cost", "/fitness-app-development-cost"]
     },
     {
       "type": "qa",
@@ -3123,7 +3444,10 @@ window.CLUSTER = {
         "risks"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-10",
+      "components": ["pass-stats", "pass-comparison", "pass-warning", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/app-development-red-flags", "/why-is-app-development-so-expensive", "/cost-to-add-login-to-an-app"]
     },
     {
       "type": "qa",
@@ -3146,7 +3470,10 @@ window.CLUSTER = {
         "complexity"
       ],
       "cta": "Soft funnel: one value-first inline mention of Pass Group's free consultation + closing CTA box 'Get a Free Consultation' -> https://pass-group.com.au/contact-us/ (two placements only).",
-      "done": false
+      "done": true,
+      "created": "2027-01-11",
+      "components": ["pass-iconlist", "pass-table", "pass-callout", "pass-cta"],
+      "linksPlaced": ["/app-development-cost-australia", "/how-much-does-it-cost-to-run-an-app", "/food-delivery-app-cost", "/how-much-does-it-cost-to-build-an-app-like-uber"]
     }
   ]
 };

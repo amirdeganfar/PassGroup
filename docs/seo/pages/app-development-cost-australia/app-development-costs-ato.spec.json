@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-costs-ato",
+  "title": "App Development Costs ATO: Expense or Asset?",
+  "seoTitle": "App Development Costs ATO: Expense or Asset?",
+  "metaDescription": "Which app development costs ATO rules let you claim now, and which are spread over years? A plain guide to deductions, GST and the records to keep.",
+  "focusKeyword": "app development costs ato",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-costs-ato.html",
+  "facet": "Tax & funding",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1162,
+  "publishAt": "2026-12-28T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "tax accountant documents",
+    "alt": "tax accountant documents"
+  }
+}

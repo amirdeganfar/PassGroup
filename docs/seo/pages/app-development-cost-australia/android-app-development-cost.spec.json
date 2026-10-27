@@ -1,0 +1,27 @@
+{
+  "slug": "android-app-development-cost",
+  "title": "How Much Does It Cost to Make an Android App?",
+  "seoTitle": "How Much Does It Cost to Make an Android App?",
+  "metaDescription": "How much does it cost to make an Android app in Australia? Typical budgets, extra device testing and Google Play's one-off fee.",
+  "focusKeyword": "how much does it cost to make an android app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/android-app-development-cost.html",
+  "facet": "Platform choices",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1119,
+  "publishAt": "2026-12-22T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "android smartphone hand",
+    "alt": "android smartphone hand"
+  }
+}

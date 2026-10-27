@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-put-an-app-on-google-play",
+  "title": "How Much Does It Cost to Put an App on Google Play?",
+  "seoTitle": "How Much Does It Cost to Put an App on Google Play?",
+  "metaDescription": "How much does it cost to put an app on Google Play? A one-off US$25 and no yearly fee — the real costs sit around the build. Here is the full picture.",
+  "focusKeyword": "how much does it cost to put an app on google play",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-put-an-app-on-google-play.html",
+  "facet": "Store & third-party fees",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1151,
+  "publishAt": "2026-12-24T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "android apps screen",
+    "alt": "android apps screen"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "average-cost-to-make-an-app",
+  "title": "What's the Average Cost to Make an App?",
+  "seoTitle": "What's the Average Cost to Make an App?",
+  "metaDescription": "There's no single average cost to make an app. See the price bands Australian founders actually face, from small focused builds to full agency projects.",
+  "focusKeyword": "average cost to make an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/average-cost-to-make-an-app.html",
+  "facet": "Cost basics",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 996,
+  "publishAt": "2026-10-28T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "average",
+    "alt": "average"
+  }
+}

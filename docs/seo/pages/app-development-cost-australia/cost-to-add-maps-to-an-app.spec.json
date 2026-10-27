@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-add-maps-to-an-app",
+  "title": "How Much Does It Cost to Add Maps to an App?",
+  "seoTitle": "How Much Does It Cost to Add Maps to an App?",
+  "metaDescription": "How much does it cost to add maps to an app? A basic map is cheap to build; tracking and routes cost more. Plus monthly fees that grow with use.",
+  "focusKeyword": "how much does it cost to add maps to an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-add-maps-to-an-app.html",
+  "facet": "Features",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-07T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 30954662,
+    "alt": "Map navigation in a phone app"
+  },
+  "postId": 1299
+}

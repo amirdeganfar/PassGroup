@@ -1,0 +1,27 @@
+{
+  "slug": "apple-developer-account-cost",
+  "title": "How Much Does an Apple Developer Account Cost?",
+  "seoTitle": "How Much Does an Apple Developer Account Cost?",
+  "metaDescription": "How much does an Apple developer account cost? US$99 per year, billed annually — plus why the account must be in your name, not your developer's.",
+  "focusKeyword": "how much does an apple developer account cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/apple-developer-account-cost.html",
+  "facet": "Store & third-party fees",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1163,
+  "publishAt": "2026-12-25T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "apple macbook desk",
+    "alt": "apple macbook desk"
+  }
+}

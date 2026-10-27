@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-add-payments-to-an-app",
+  "title": "How Much Does It Cost to Add Payments to an App?",
+  "seoTitle": "How Much Does It Cost to Add Payments to an App?",
+  "metaDescription": "How much does it cost to add payments to an app? Usually a few thousand on a working app — plus small fees on every sale. What drives the price up.",
+  "focusKeyword": "how much does it cost to add payments to an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-add-payments-to-an-app.html",
+  "facet": "Features",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-05T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 6353669,
+    "alt": "Taking a card payment through a mobile app"
+  },
+  "postId": 1285
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "gps-app-cost",
+  "title": "How Much Does It Cost to Make a GPS App?",
+  "seoTitle": "How Much Does It Cost to Make a GPS App?",
+  "metaDescription": "How much does it cost to make a GPS app? A focused version starts in the low five figures, but mapping services charge per use — heavy tracking costs more.",
+  "focusKeyword": "how much does it cost to make a gps app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/gps-app-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-11T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 6044782,
+    "alt": "GPS navigation running on a car dashboard"
+  },
+  "postId": 1296
+}

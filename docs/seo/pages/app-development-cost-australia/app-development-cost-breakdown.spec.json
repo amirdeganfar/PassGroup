@@ -1,0 +1,21 @@
+{
+  "slug": "app-development-cost-breakdown",
+  "title": "What Goes Into an App Development Cost (Line by Line)",
+  "seoTitle": "App Development Cost Breakdown: What Each Line Covers",
+  "metaDescription": "A plain-English app development cost breakdown: discovery, design, the build, testing and launch — what each line covers, with typical AU price ranges.",
+  "focusKeyword": "app development cost breakdown",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-cost-breakdown.html",
+  "facet": "Cost basics",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 977
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "app-maintenance-cost-per-year",
+  "title": "What App Maintenance Costs Per Year in Australia",
+  "seoTitle": "App Maintenance Cost per Year: AU Guide for Founders",
+  "metaDescription": "App maintenance cost per year in Australia: realistic AUD bands, a lean vs a busy budget example, and what to check before signing a contract.",
+  "focusKeyword": "app maintenance cost per year",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-maintenance-cost-per-year.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1043,
+  "publishAt": "2026-11-14T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "software maintenance engineer laptop",
+    "alt": "software maintenance engineer laptop"
+  }
+}

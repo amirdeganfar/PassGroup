@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-make-an-app-by-yourself",
+  "title": "What It Costs to Make an App by Yourself",
+  "seoTitle": "How Much Does It Cost to Make an App by Yourself?",
+  "metaDescription": "How much does it cost to make an app by yourself in Australia? The real tool fees, store fees and time cost to budget — plus when DIY stops making sense.",
+  "focusKeyword": "how much does it cost to make an app by yourself",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-make-an-app-by-yourself.html",
+  "facet": "DIY & no-code",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1063,
+  "publishAt": "2026-11-21T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "solo developer working laptop",
+    "alt": "solo developer working laptop"
+  }
+}

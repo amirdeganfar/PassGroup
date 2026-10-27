@@ -1,0 +1,27 @@
+{
+  "slug": "is-building-an-app-worth-it",
+  "title": "Is Building an App Worth It? How to Tell First",
+  "seoTitle": "Is Building an App Worth It? How to Tell First",
+  "metaDescription": "Is building an app worth it? Yes — when one job earns or saves more than the build plus running costs. The simple money maths to check first.",
+  "focusKeyword": "is building an app worth it",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/is-building-an-app-worth-it.html",
+  "facet": "Cost basics",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-04T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 874242,
+    "alt": "A founder weighing up whether building an app is worth it"
+  },
+  "postId": 1278
+}

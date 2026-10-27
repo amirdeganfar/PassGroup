@@ -1,0 +1,27 @@
+{
+  "slug": "how-many-app-quotes",
+  "title": "How Many Quotes Should I Get for an App?",
+  "seoTitle": "How Many Quotes Should I Get for an App?",
+  "metaDescription": "How many quotes should I get for an app? Three is the sweet spot. Here's how to run a fair quote round and compare what each one leaves out.",
+  "focusKeyword": "how many quotes should i get for an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/how-many-app-quotes.html",
+  "facet": "Quotes & contracts",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1126,
+  "publishAt": "2026-12-14T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "comparing documents desk",
+    "alt": "comparing documents desk"
+  }
+}

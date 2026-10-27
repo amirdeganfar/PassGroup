@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-cost-melbourne",
+  "title": "What App Development Costs in Melbourne",
+  "seoTitle": "App Development Cost Melbourne: 2026 Price Guide",
+  "metaDescription": "App development cost Melbourne in plain terms: realistic price bands, what local quotes include, how the city compares with Sydney, and what to ask first.",
+  "focusKeyword": "app development cost melbourne",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-cost-melbourne.html",
+  "facet": "Location",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1075,
+  "publishAt": "2026-11-25T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "melbourne city tram",
+    "alt": "melbourne city tram"
+  }
+}

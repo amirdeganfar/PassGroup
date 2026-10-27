@@ -1,0 +1,27 @@
+{
+  "slug": "can-you-build-an-app-for-free",
+  "title": "Can You Build an App for Free?",
+  "seoTitle": "Can You Build an App for Free?",
+  "metaDescription": "Can you build an app for free? Free tools can demo an idea, but a real app needs a developer account, hosting and your time. Here's the honest maths.",
+  "focusKeyword": "can you build an app for free",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/can-you-build-an-app-for-free.html",
+  "facet": "Cost basics",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 997,
+  "publishAt": "2026-10-28T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "free neon sign",
+    "alt": "free neon sign"
+  }
+}

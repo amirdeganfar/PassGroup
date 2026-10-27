@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-fix-a-bad-app",
+  "title": "Cost to Fix a Bad App: Rescue or Rebuild?",
+  "seoTitle": "Cost to Fix a Bad App: Rescue or Rebuild?",
+  "metaDescription": "The cost to fix a bad app in Australia: audit and rescue price bands, why missing source code doubles the bill, and how to choose fix vs rebuild.",
+  "focusKeyword": "cost to fix a bad app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-fix-a-bad-app.html",
+  "facet": "Risks & fixes",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1156,
+  "publishAt": "2027-01-01T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "broken phone screen",
+    "alt": "broken phone screen"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "app-store-fees",
+  "title": "App Store Fees: What Apple and Google Charge You",
+  "seoTitle": "App Store Fees: What Apple and Google Charge You",
+  "metaDescription": "App store fees in plain words: what Apple and Google charge for developer accounts and sales commissions, and what it means for your budget.",
+  "focusKeyword": "app store fees",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-store-fees.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1048,
+  "publishAt": "2026-11-11T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "app store smartphone",
+    "alt": "app store smartphone"
+  }
+}

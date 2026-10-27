@@ -1,0 +1,27 @@
+{
+  "slug": "food-delivery-app-cost",
+  "title": "What a Food Delivery App Costs (and What Drives the Price)",
+  "seoTitle": "Food Delivery App Cost: What to Budget in Australia",
+  "metaDescription": "A plain-English food delivery app cost guide for Australia: ordering apps from $20k, marketplaces from $50k, fleet platforms $120k+ — plus running bills.",
+  "focusKeyword": "food delivery app cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/food-delivery-app-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1020,
+  "publishAt": "2026-11-04T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "food delivery courier",
+    "alt": "food delivery courier"
+  }
+}

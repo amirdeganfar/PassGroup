@@ -38,7 +38,7 @@ node docs/seo/verify-keywords.mjs "kw 1" "kw 2" --expand                # estima
 4. Latest run: `notes/verification-2026-10-25.md` (12 keywords, Bing RSS 12/12; caveat: Bing served off-topic noise on ~7 queries — flagged inside).
 
 ## Site facts (verified Oct 2026)
-- Domain: **pass-group.com.au** — WP posts live at site **root** (`/<slug>/`), blog archive at `/category/blog/`
+- Domain: **pass-group.com.au** — WP posts live at site **root** (`/<slug>/`), **blog listing at `/blog/`** (posts page; `/category/blog/` 301s there — fixed 2026-10-25). Nav is theme-option driven (`psc_options`), and the **homepage is a static index.html** (not WP-rendered — edits go via FTP, it carries no WP head/CSS).
 - Audience: Australian businesses/startups with an app or website idea; geo = AU English
 - **House voice: simple, human, easy to follow** — plain everyday words, simple structures, zero unexplained jargon (full rule: `.claude/skills/seo-core` §4 "Simple-human rule"; enforced in the §5 pre-publish checklist)
 - CTA funnel: free consultation → `/contact-us/`
@@ -48,5 +48,7 @@ node docs/seo/verify-keywords.mjs "kw 1" "kw 2" --expand                # estima
 - [x] Pillar shortlist (`notes/pillars.md`)
 - [x] Control panel (viewer + ledger + config)
 - [x] Site design intel gathered via FTP (`notes/site-design-notes.md` — Pacific theme tokens, Rank Math confirmed active, XML-RPC off → REST + app passwords)
-- [ ] **Pick pillar #1** (recommend: App Development Cost in Australia) → run `pillar-cluster-planner`
-- [ ] Create `styles/pass-article.css` (design tokens in `notes/site-design-notes.md`: petrol `#00384c`, cyan `#00bdf1`, Inter, 3–8px radius, 1000px single-column content) + port `publish-article.mjs` before first publish
+- [x] WP pipeline connected (2026-10-25): `.env.local` set (WP_USER=Nathan, editor), REST Basic-auth mu-plugin installed, `pass-article.css` installed into WP Customizer Additional CSS, `publish-article.mjs` ported + lint-tested
+- [ ] **First batch** (pillar + 4 cost articles) — confirm → write → publish drafts
+- [ ] Create `styles/pass-article.css` ✓ done · optional: PEXELS_API_KEY in `.env.local` for auto hero images
+- [ ] **Pick pillar #2** → run `pillar-cluster-planner` (recommend AI cost pillar #8)

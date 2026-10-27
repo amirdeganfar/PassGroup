@@ -1,0 +1,27 @@
+{
+  "slug": "realistic-app-budget",
+  "title": "What's a Realistic Budget for an App Startup?",
+  "seoTitle": "What Is a Realistic Budget for an App Startup? (3 Buckets)",
+  "metaDescription": "What is a realistic budget for an app startup? Three buckets: the first build, a year of running costs, and a marketing line. Here is how founders plan it.",
+  "focusKeyword": "what is a realistic budget for an app startup",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/realistic-app-budget.html",
+  "facet": "Budget tips",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1091,
+  "publishAt": "2026-12-02T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "budget planning notebook",
+    "alt": "budget planning notebook"
+  }
+}

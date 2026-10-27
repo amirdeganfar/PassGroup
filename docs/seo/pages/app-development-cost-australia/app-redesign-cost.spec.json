@@ -1,0 +1,27 @@
+{
+  "slug": "app-redesign-cost",
+  "title": "App Redesign Cost: Refresh, Redesign or Rebuild?",
+  "seoTitle": "App Redesign Cost: Refresh, Redesign or Rebuild?",
+  "metaDescription": "What an app redesign cost covers: visual refresh vs structural redesign vs rebuild, how code quality prices the job, and how to get quoted right.",
+  "focusKeyword": "app redesign cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-redesign-cost.html",
+  "facet": "Risks & fixes",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1159,
+  "publishAt": "2027-01-03T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "ui design sketch wireframe",
+    "alt": "ui design sketch wireframe"
+  }
+}

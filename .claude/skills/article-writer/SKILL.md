@@ -162,9 +162,11 @@ voice — realistic but no fabricated facts), and **vary the opening hook** (not
 `docs/seo/styles/s5k-article.css`, installed in WP → Appearance → Customize → Additional
 CSS (one-time). **If you used any component/tone class new to the stylesheet, remind the
 user to re-paste the CSS** before publishing, or those parts render unstyled.
-House voice — **between casual and formal, enjoyable for runners**. Apply §4 readability
-(BLUF, short paragraphs, 15–20-word sentences, bullets, bold key terms, active voice,
-anti-AI-slop) and §3 on-page (title ≤60, one H1, H2s from the brief/PAA,
+House voice — **casual and very simple, easy to understand** (site requirement — Pass
+Group): plain everyday words, short sentences, every technical term explained in the same
+sentence it first appears, written for a founder with no technical team. Apply §4
+readability (BLUF, short paragraphs, 15–20-word sentences, bullets, bold key terms, active
+voice, anti-AI-slop) and §3 on-page (title ≤60, one H1, H2s from the brief/PAA,
 natural keyword/semantic use). Word counts from the page `type` (pillar hub ~2,000;
 article ~1,000–1,500; qa ~300–500 with the answer in the first ~50 words).
 

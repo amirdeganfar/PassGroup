@@ -1,0 +1,23 @@
+{
+  "slug": "stop-paying-app-maintenance",
+  "title": "What Happens If I Stop Paying for App Maintenance?",
+  "seoTitle": "What Happens If I Stop Paying for App Maintenance?",
+  "metaDescription": "What happens if I stop paying for app maintenance? Nothing at first \u2014 then phone updates, bugs and expired certificates break it, often within a year.",
+  "focusKeyword": "what happens if i stop paying for app maintenance",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/stop-paying-app-maintenance.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "featuredImage": { "source": "pexels", "query": "laptop budget planning spreadsheet", "alt": "Planning a smaller app maintenance budget on a laptop" },
+  "postId": 995,
+  "publishAt": "2026-10-27T09:00:00"
+}

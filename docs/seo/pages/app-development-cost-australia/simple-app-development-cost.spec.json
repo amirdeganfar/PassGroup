@@ -1,0 +1,27 @@
+{
+  "slug": "simple-app-development-cost",
+  "title": "What a Simple App Costs to Build",
+  "seoTitle": "Simple App Development Cost: What 'Simple' Really Costs",
+  "metaDescription": "Simple app development cost in Australia: what a basic app really costs in 2026, what quietly makes it complex, and the running costs to expect.",
+  "focusKeyword": "simple app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/simple-app-development-cost.html",
+  "facet": "Complexity",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1010,
+  "publishAt": "2026-10-31T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "minimalist desk laptop",
+    "alt": "minimalist desk laptop"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "app-developer-disappeared",
+  "title": "What Happens If My App Developer Disappears?",
+  "seoTitle": "What Happens If My App Developer Disappears?",
+  "metaDescription": "What happens if my app developer disappears? It depends on one thing: who owns the code and accounts. How to check yours — and how to recover either way.",
+  "focusKeyword": "what happens if my app developer disappears",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-developer-disappeared.html",
+  "facet": "Who builds it",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1068,
+  "publishAt": "2026-11-20T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "empty desk office",
+    "alt": "empty desk office"
+  }
+}

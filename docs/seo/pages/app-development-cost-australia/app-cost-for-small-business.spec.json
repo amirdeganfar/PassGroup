@@ -1,0 +1,27 @@
+{
+  "slug": "app-cost-for-small-business",
+  "title": "What an App Costs for a Small Business",
+  "seoTitle": "App Development Cost for a Small Business: AU Guide",
+  "metaDescription": "App development cost for a small business in Australia: realistic AUD bands for customer apps and internal tools, plus the running costs to plan for.",
+  "focusKeyword": "app development cost for a small business",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-cost-for-small-business.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1008,
+  "publishAt": "2026-10-31T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "small business owner shop",
+    "alt": "small business owner shop"
+  }
+}

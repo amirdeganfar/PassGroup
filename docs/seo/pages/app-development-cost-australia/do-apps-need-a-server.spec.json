@@ -1,0 +1,23 @@
+{
+  "slug": "do-apps-need-a-server",
+  "title": "Do Apps Need a Server? Why (and What It Costs)",
+  "seoTitle": "Do Apps Need a Server? Why (and What It Costs)",
+  "metaDescription": "Do apps need a server? Almost always \u2014 it stores accounts, content and payments even when the app looks local. What that means for your running costs.",
+  "focusKeyword": "do apps need a server",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/do-apps-need-a-server.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "featuredImage": { "source": "pexels", "query": "server room data center", "alt": "Server racks in a data centre — the server that keeps an app online" },
+  "postId": 994,
+  "publishAt": "2026-10-27T09:00:00"
+}

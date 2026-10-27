@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-add-ai-to-an-app",
+  "title": "How Much Does It Cost to Add AI to an App?",
+  "seoTitle": "How Much Does It Cost to Add AI to an App?",
+  "metaDescription": "How much does it cost to add AI to an app? A modest one-off build to wire in a paid AI service — the ongoing bill is usage-based and grows with use.",
+  "focusKeyword": "how much does it cost to add ai to an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-add-ai-to-an-app.html",
+  "facet": "Features",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-08T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 32021560,
+    "alt": "An AI assistant built into an app"
+  },
+  "postId": 1310
+}

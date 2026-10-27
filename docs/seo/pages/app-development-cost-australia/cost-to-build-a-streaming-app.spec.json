@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-build-a-streaming-app",
+  "title": "How Much Does It Cost to Build a Streaming App?",
+  "seoTitle": "How Much Does It Cost to Build a Streaming App?",
+  "metaDescription": "How much does it cost to build a streaming app? Most video apps start in the mid five figures, and hosting grows every month with your audience.",
+  "focusKeyword": "how much does it cost to build a streaming app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-build-a-streaming-app.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-09T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 5202925,
+    "alt": "Watching streamed video on a TV"
+  },
+  "postId": 1270
+}

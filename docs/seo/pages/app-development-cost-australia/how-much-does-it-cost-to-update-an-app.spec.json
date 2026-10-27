@@ -1,0 +1,27 @@
+{
+  "slug": "how-much-does-it-cost-to-update-an-app",
+  "title": "What It Costs to Update an App (and Why You Always Will)",
+  "seoTitle": "How Much Does It Cost to Update an App? (AU Guide)",
+  "metaDescription": "How much does it cost to update an app? Realistic AUD bands for bug fixes, OS updates and new features, plus how to budget updates from day one.",
+  "focusKeyword": "how much does it cost to update an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/how-much-does-it-cost-to-update-an-app.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1041,
+  "publishAt": "2026-11-13T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "phone software update",
+    "alt": "phone software update"
+  }
+}

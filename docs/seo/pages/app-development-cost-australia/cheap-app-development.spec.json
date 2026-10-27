@@ -1,0 +1,27 @@
+{
+  "slug": "cheap-app-development",
+  "title": "Cheap App Development: What $3k Buys (and What It Won't)",
+  "seoTitle": "Cheap App Development: What $3k Buys (and What It Won't)",
+  "metaDescription": "Cheap app development: what a $3k build really includes, the four things low quotes skip, and when a small budget is still the right call.",
+  "focusKeyword": "cheap app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cheap-app-development.html",
+  "facet": "Risks & fixes",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1153,
+  "publishAt": "2026-12-31T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "budget calculator coins",
+    "alt": "budget calculator coins"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "fixed-price-vs-time-and-materials",
+  "title": "Fixed Price or Time and Materials for Your App Build?",
+  "seoTitle": "Fixed Price vs Time and Materials for App Builds",
+  "metaDescription": "Fixed price vs time and materials for an app build: how each works, when each wins, the trap in both, and the hybrid most studios use.",
+  "focusKeyword": "fixed price vs time and materials",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/fixed-price-vs-time-and-materials.html",
+  "facet": "Payment models",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1122,
+  "publishAt": "2026-12-15T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "fixed price time materials",
+    "alt": "fixed price time materials"
+  }
+}

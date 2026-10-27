@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-cost-perth",
+  "title": "How Much Do App Developers Cost in Perth?",
+  "seoTitle": "How Much Do App Developers Cost in Perth?",
+  "metaDescription": "How much do app developers cost in Perth? The same broad bands as the east coast — but good studios book out. See the figures and what to check first.",
+  "focusKeyword": "how much do app developers cost in perth",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-cost-perth.html",
+  "facet": "Location",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1108,
+  "publishAt": "2026-12-10T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "perth city skyline",
+    "alt": "perth city skyline"
+  }
+}

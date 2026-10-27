@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-add-chat-to-an-app",
+  "title": "How Much Does It Cost to Add Chat to an App?",
+  "seoTitle": "How Much Does It Cost to Add Chat to an App?",
+  "metaDescription": "How much does it cost to add chat to an app? A few thousand with a chat service, more if built custom. What drives the price — and the monthly fee.",
+  "focusKeyword": "how much does it cost to add chat to an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-add-chat-to-an-app.html",
+  "facet": "Features",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-06T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 6669782,
+    "alt": "Chatting in a mobile app messaging screen"
+  },
+  "postId": 1293
+}

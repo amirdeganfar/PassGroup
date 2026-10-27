@@ -1,0 +1,27 @@
+{
+  "slug": "cost-to-add-login-to-an-app",
+  "title": "How Much Does It Cost to Add Logins to an App?",
+  "seoTitle": "How Much Does It Cost to Add Logins to an App?",
+  "metaDescription": "How much does it cost to add logins to an app? Most first versions land at $2,000–$8,000 using a standard login service — social logins cost more.",
+  "focusKeyword": "how much does it cost to add logins to an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cost-to-add-login-to-an-app.html",
+  "facet": "Features",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-08T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 1138735,
+    "alt": "Logging in to an app on a phone"
+  },
+  "postId": 1315
+}

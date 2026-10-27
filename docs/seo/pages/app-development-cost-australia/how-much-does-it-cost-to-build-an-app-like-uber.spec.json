@@ -1,0 +1,27 @@
+{
+  "slug": "how-much-does-it-cost-to-build-an-app-like-uber",
+  "title": "How Much Does It Cost to Build an App Like Uber?",
+  "seoTitle": "How Much Does It Cost to Build an App Like Uber?",
+  "metaDescription": "How much does it cost to build an app like Uber? Real AU price bands ($80k–$350k+), the three apps you're really buying, and the lean way to launch.",
+  "focusKeyword": "how much does it cost to build an app like uber",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/how-much-does-it-cost-to-build-an-app-like-uber.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1018,
+  "publishAt": "2026-11-03T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "taxi ride smartphone",
+    "alt": "taxi ride smartphone"
+  }
+}

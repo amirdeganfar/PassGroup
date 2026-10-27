@@ -1,0 +1,21 @@
+{
+  "slug": "app-development-cost-estimate",
+  "title": "App Development Cost Estimate in 10 Minutes (Free Method)",
+  "seoTitle": "App Development Cost Estimate in 10 Minutes (Free Method)",
+  "metaDescription": "Make an app development cost estimate in 10 minutes: list features, count screens and logins, then turn them into a price band to check against quotes.",
+  "focusKeyword": "app development cost estimate",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-cost-estimate.html",
+  "facet": "Cost basics",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 978
+}

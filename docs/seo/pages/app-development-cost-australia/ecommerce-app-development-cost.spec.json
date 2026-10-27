@@ -1,0 +1,27 @@
+{
+  "slug": "ecommerce-app-development-cost",
+  "title": "What an E-commerce App Costs in Australia",
+  "seoTitle": "Ecommerce App Development Cost in Australia (2026)",
+  "metaDescription": "Ecommerce app development cost in Australia: custom shop apps $50k–$120k, marketplaces $120k–$350k+ — or a hosted store on a monthly plan. Honest numbers.",
+  "focusKeyword": "ecommerce app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/ecommerce-app-development-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1021,
+  "publishAt": "2026-11-04T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "online shopping phone",
+    "alt": "online shopping phone"
+  }
+}

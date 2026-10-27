@@ -1,0 +1,27 @@
+{
+  "slug": "freelance-vs-agency-app-development",
+  "title": "Freelancer or Agency: Who Should Build Your App?",
+  "seoTitle": "Freelance vs Agency App Development: Who to Hire",
+  "metaDescription": "Freelance vs agency app development compared: cost, speed, reliability and ongoing support, plus when each option wins and the question that decides it.",
+  "focusKeyword": "freelance vs agency app development",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/freelance-vs-agency-app-development.html",
+  "facet": "Who builds it",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1073,
+  "publishAt": "2026-11-18T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "laptop freelancer coffee",
+    "alt": "laptop freelancer coffee"
+  }
+}

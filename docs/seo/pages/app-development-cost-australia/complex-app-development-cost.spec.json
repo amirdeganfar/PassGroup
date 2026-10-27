@@ -1,0 +1,27 @@
+{
+  "slug": "complex-app-development-cost",
+  "title": "Why Complex Apps Cost $150,000+ (and When You Need One)",
+  "seoTitle": "Complex App Development Cost: When $150k+ Is Worth It",
+  "metaDescription": "Complex app development cost starts around $150,000. What drives it — integrations, security, team size — and when a complex build is genuinely worth it.",
+  "focusKeyword": "complex app development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/complex-app-development-cost.html",
+  "facet": "Complexity",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1035,
+  "publishAt": "2026-11-05T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "complex circuit board",
+    "alt": "complex circuit board"
+  }
+}

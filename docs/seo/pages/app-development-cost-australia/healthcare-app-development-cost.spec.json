@@ -1,0 +1,27 @@
+{
+  "slug": "healthcare-app-development-cost",
+  "title": "How Much Does It Cost to Develop a Healthcare App?",
+  "seoTitle": "How Much Does It Cost to Develop a Healthcare App?",
+  "metaDescription": "How much does it cost to develop a healthcare app? Simple wellness apps start in the five figures, but patient data adds strict privacy work — and budget.",
+  "focusKeyword": "how much does it cost to develop a healthcare app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/healthcare-app-development-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-10T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 48603,
+    "alt": "A healthcare app on a phone at a doctor's appointment"
+  },
+  "postId": 1280
+}

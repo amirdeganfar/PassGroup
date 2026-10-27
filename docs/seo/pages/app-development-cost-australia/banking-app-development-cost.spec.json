@@ -1,0 +1,27 @@
+{
+  "slug": "banking-app-development-cost",
+  "title": "How Much Does It Cost to Make a Banking App?",
+  "seoTitle": "How Much Does It Cost to Make a Banking App?",
+  "metaDescription": "How much does it cost to make a banking app? Real ones cost six figures and up. A payment feature inside a normal app is far cheaper — here is why.",
+  "focusKeyword": "how much does it cost to make a banking app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/banking-app-development-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "publishAt": "2027-01-10T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 7821762,
+    "alt": "Mobile banking on a phone"
+  },
+  "postId": 1284
+}

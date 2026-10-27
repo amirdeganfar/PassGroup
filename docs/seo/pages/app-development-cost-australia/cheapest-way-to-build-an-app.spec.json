@@ -1,0 +1,27 @@
+{
+  "slug": "cheapest-way-to-build-an-app",
+  "title": "What's the Cheapest Way to Build an App?",
+  "seoTitle": "What Is the Cheapest Way to Build an App? (Honest Paths)",
+  "metaDescription": "What is the cheapest way to build an app? Start with a small MVP — no-code or a fixed-price first phase — and cut features, not quality.",
+  "focusKeyword": "what is the cheapest way to build an app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/cheapest-way-to-build-an-app.html",
+  "facet": "Budget tips",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1090,
+  "publishAt": "2026-12-01T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "piggy bank coins",
+    "alt": "piggy bank coins"
+  }
+}

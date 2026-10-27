@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-contract",
+  "title": "App Development Contracts: What to Check Before You Sign",
+  "seoTitle": "App Development Contract: What to Check Before You Sign",
+  "metaDescription": "Your app development contract in plain words: scope, payments, code ownership, warranty and exit terms to check before you sign. General info, not legal advice.",
+  "focusKeyword": "app development contract",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-contract.html",
+  "facet": "Quotes & contracts",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1127,
+  "publishAt": "2026-12-11T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "signing contract document",
+    "alt": "signing contract document"
+  }
+}

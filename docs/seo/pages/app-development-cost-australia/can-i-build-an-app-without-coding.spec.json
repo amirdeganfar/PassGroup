@@ -1,0 +1,27 @@
+{
+  "slug": "can-i-build-an-app-without-coding",
+  "title": "Can I Build an App Without Coding?",
+  "seoTitle": "Can I Build an App Without Coding?",
+  "metaDescription": "Can I build an app without coding? Yes — no-code and AI builders cover demos, internal tools and trials. Where they hit the ceiling, and what's next.",
+  "focusKeyword": "can i build an app without coding",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/can-i-build-an-app-without-coding.html",
+  "facet": "DIY & no-code",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1069,
+  "publishAt": "2026-11-24T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "no code laptop",
+    "alt": "no code laptop"
+  }
+}

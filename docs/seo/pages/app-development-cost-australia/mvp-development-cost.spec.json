@@ -1,0 +1,27 @@
+{
+  "slug": "mvp-development-cost",
+  "title": "What an MVP Costs in Australia (and What You Get for It)",
+  "seoTitle": "MVP Development Cost in Australia: What You Actually Get",
+  "metaDescription": "MVP development cost in Australia: lean builds from $5k–$20k, agency MVPs from $30k–$60k. What an MVP should include, what to cut, and how long it takes.",
+  "focusKeyword": "mvp development cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/mvp-development-cost.html",
+  "facet": "MVP & prototypes",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1037,
+  "publishAt": "2026-11-07T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "startup whiteboard product",
+    "alt": "startup whiteboard product"
+  }
+}

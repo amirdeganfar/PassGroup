@@ -1,0 +1,27 @@
+{
+  "slug": "app-vs-website-cost",
+  "title": "App vs Website: Which Costs Less (and What Each Really Runs)",
+  "seoTitle": "App vs Website Cost: Which One Costs Less to Build and Run?",
+  "metaDescription": "An honest app vs website cost comparison for Australian businesses — build prices, running bills, and which one your business should build first.",
+  "focusKeyword": "app vs website cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-vs-website-cost.html",
+  "facet": "App types",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "publishAt": "2027-01-05T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "photoId": 593321,
+    "alt": "Comparing a phone and a laptop — app vs website running costs"
+  },
+  "postId": 1290
+}

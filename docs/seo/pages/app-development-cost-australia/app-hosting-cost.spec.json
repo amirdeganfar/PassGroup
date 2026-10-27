@@ -1,0 +1,27 @@
+{
+  "slug": "app-hosting-cost",
+  "title": "App Hosting Cost: What You'll Really Pay Each Month",
+  "seoTitle": "App Hosting Cost: What You'll Really Pay Each Month",
+  "metaDescription": "App hosting cost in plain words: typical monthly bands, why bills climb with users and data, and how to budget as your app grows.",
+  "focusKeyword": "app hosting cost",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-hosting-cost.html",
+  "facet": "Hidden & ongoing costs",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1049,
+  "publishAt": "2026-11-12T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "server room infrastructure",
+    "alt": "server room infrastructure"
+  }
+}

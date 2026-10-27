@@ -1,0 +1,27 @@
+{
+  "slug": "app-development-quote",
+  "title": "Reading an App Development Quote: What Every Line Means",
+  "seoTitle": "App Development Quote: What Every Line Means",
+  "metaDescription": "An app development quote, decoded line by line: the four blocks, hourly vs fixed, the exclusions that matter, and red flags hiding in reasonable quotes.",
+  "focusKeyword": "app development quote",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/app-development-quote.html",
+  "facet": "Quotes & contracts",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "Article",
+  "postId": 1099,
+  "publishAt": "2026-12-05T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "price estimate calculator",
+    "alt": "price estimate calculator"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "ios-app-development-cost",
+  "title": "How Much Does It Cost to Make an iOS App?",
+  "seoTitle": "How Much Does It Cost to Make an iOS App?",
+  "metaDescription": "How much does it cost to make an iOS app in Australia? Typical budgets, what's included, and Apple's yearly fee, in plain words.",
+  "focusKeyword": "how much does it cost to make an ios app",
+  "contentFile": "docs/seo/pages/app-development-cost-australia/ios-app-development-cost.html",
+  "facet": "Platform choices",
+  "category": {
+    "name": "App Development Cost",
+    "slug": "app-development-cost"
+  },
+  "tags": [
+    {
+      "name": "Beginner",
+      "slug": "beginner"
+    }
+  ],
+  "schema": "FAQPage",
+  "postId": 1120,
+  "publishAt": "2026-12-21T09:00:00",
+  "featuredImage": {
+    "source": "pexels",
+    "query": "iphone developer desk",
+    "alt": "iphone developer desk"
+  }
+}
